@@ -1,4 +1,6 @@
-module.exports = {
-    // Your existing Next.js configuration...
-    distDir: 'docs/.next',
-}
+const withNextra = require('nextra')({
+  theme: 'nextra-theme-docs',
+  themeConfig: './theme.config.tsx',
+})
+
+module.exports = withNextra()

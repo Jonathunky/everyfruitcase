@@ -1,48 +1,23 @@
-# Nextra
+# Nextra Docs Template 
 
-Simple, powerful and flexible site generation framework with everything you love from Next.js.
+This is a template for creating documentation with [Nextra](https://nextra.site).
 
-## Documentation
+[**Live Demo →**](https://nextra-docs-template.vercel.app)
 
-[https://nextra.site](https://nextra.site)
+[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
 
-## Development
+## Quick Start
 
-### Installation
+Click the button to clone this repository and deploy it on Vercel:
 
-The Nextra repository uses [PNPM Workspaces](https://pnpm.io/workspaces) and [Turborepo](https://github.com/vercel/turborepo). To install dependencies, just simply run `pnpm` in the project root directory.
+[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
 
-### Build Nextra Core
+## Local Development
 
-```bash
-cd packages/nextra
-pnpm build
-```
+First, run `pnpm i` to install the dependencies.
 
-Watch mode: `pnpm dev`
+Then, run `pnpm dev` to start the development server and visit localhost:3000.
 
-### Build Nextra Theme
+## License
 
-```bash
-cd packages/nextra-theme-docs
-pnpm build
-```
-
-| Command           | Description              |
-| ----------------- | ------------------------ |
-| pnpm dev          | Watch mode               |
-| pnpm dev:layout   | Watch mode (layout only) |
-| pnpm dev:tailwind | Watch mode (style only)  |
-
-### Development
-
-You can also debug them together with a website locally. For instance, to start examples/docs locally, run
-
-```bash
-cd examples/docs
-pnpm dev
-```
-
-Any change to example/docs will be re-rendered instantly.
-
-If you update the core or theme packages, a rebuild is required. Or you can use the watch mode for both nextra and the theme in separated terminals.
+This project is licensed under the MIT License.
