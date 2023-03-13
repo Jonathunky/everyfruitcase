@@ -13,6 +13,9 @@ const config: DocsThemeConfig = {
   footer: {
     //text: ' with love, \n Jonathunky',
   },
+  sidebar: {
+    defaultMenuCollapseLevel: 1
+  }
 }
 
 export default config
