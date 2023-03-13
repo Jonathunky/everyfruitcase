@@ -22,6 +22,11 @@ const config: DocsThemeConfig = {
     return {
       titleTemplate: '%s – CaseStack'
     }
+  },
+  //editLink: false,
+  toc: false,
+  search: {
+    placeholder: "Search..."
   }
 }
 
