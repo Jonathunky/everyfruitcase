@@ -1,1 +1,0 @@
-# Clear Case with MagSafe
