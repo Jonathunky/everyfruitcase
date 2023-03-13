@@ -11,7 +11,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/JonathanX64/everyfruitcase',
   footer: {
-    text: ' with love, \n Jonathunky',
+    //text: ' with love, \n Jonathunky',
   },
 }
 

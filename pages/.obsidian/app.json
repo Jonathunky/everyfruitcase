@@ -1,1 +1,7 @@
-{}
+{
+  "strictLineBreaks": true,
+  "foldHeading": false,
+  "spellcheck": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
+}

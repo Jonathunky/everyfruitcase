@@ -1,13 +1,15 @@
 # Early 2023
  
-In Spring 2023, Apple only released new lineup of Silicone cases:
+In March 2023, Apple released updated lineup of Silicone cases for iPhone 14 series. 
 
-Canary Yellow
-Olive
-Sky
-Iris
+New colors are following:
+- Canary Yellow
+- Olive
+- Sky
+- Iris
 
-iPhone 14 
-iPhone 14 Plus
-iPhone 14 Pro
-iPhone 14 Pro Max
+These cases are compatible with following devices:
+- iPhone 14 
+- iPhone 14 Plus
+- iPhone 14 Pro
+- iPhone 14 Pro Max

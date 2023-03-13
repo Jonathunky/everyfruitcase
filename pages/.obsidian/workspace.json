@@ -11,8 +11,12 @@
             "id": "cc9dbff3ce1ff833",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "index.md"
+              }
             }
           }
         ]
@@ -138,8 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc9dbff3ce1ff833",
+  "active": "7b2f833feccfbf78",
   "lastOpenFiles": [
-    "Early_2023.md"
+    "Late_2022/leather",
+    "Late_2022/silicone",
+    "Early_2023/silicone.md",
+    "Early_2023.md",
+    "Early_2023/silicone/Sky.md",
+    "Early_2023/silicone/Olive.md",
+    "Early_2023/silicone/Iris.md",
+    "Early_2023/silicone/Canary_Yellow.md"
   ]
 }

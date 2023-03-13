@@ -1,13 +1,25 @@
 {
-  "index": "Homie page",
+  "index": {
+    "title": "Home page",
+    "theme": {
+      "breadcrumb": false,
+      "footer": false,
+      "sidebar": true,
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "---": {
+    "type": "separator"
+  },
   "Early_2023": "Early 2023",
   "Late_2022": "Late 2022",
   "Early_2022": "Early 2022",
   "Late_2021": "Late 2021",
   "contact": {
-    "title": "Contact ↗",
+    "title": "me_irl ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://twitter.com/Jonathunky",
     "newWindow": true
   }
 }
