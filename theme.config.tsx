@@ -7,7 +7,7 @@ const footer = {
 }
 
 const config: DocsThemeConfig = {
-  logo: <span>CaseStack</span>,
+  logo: <span>EveryCase</span>,
   project: {
     //link: 'https://github.com/shuding/nextra-docs-template',
   },
@@ -23,7 +23,7 @@ const config: DocsThemeConfig = {
   faviconGlyph: '🤙🏻',
   useNextSeoProps() {
     return {
-      titleTemplate: '%s – CaseStack'
+      titleTemplate: '%s – EveryCase'
     }
   },
   toc: {

@@ -103,6 +103,7 @@ colors = {  # let's use colors as a baseline! I'm a fucking genius!!! Hell yes!
 	}
 	# TODO there were also Early 2021 wallets!!
 	# TODO Late 2021, Early 2022, Late 2022, Early 2023
+	# TODO iPads, AirTag zaloopas, and such
 }
 
 models = {
