@@ -10,9 +10,7 @@ const config: DocsThemeConfig = {
     //link: 'https://discord.com',
   },
   docsRepositoryBase: 'https://github.com/JonathanX64/everyfruitcase',
-  footer: {
-    //text: ' with love, \n Jonathunky',
-  },
+  footer: false,
   sidebar: {
     defaultMenuCollapseLevel: 1
   },

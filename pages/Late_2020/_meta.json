@@ -1,7 +1,15 @@
 {
-    "leather": "iPhone | Leather Case",
-    "sleeve": "iPhone | Leather Sleeve",
-    "silicone": "iPhone | Silicone Sleeve",
-    "clear": "iPhone | Clear Sleeve",
-    "wallet": "iPhone | Leather Wallet"
+    "Black": "Black",
+    "Saddle_Brown": "Saddle Brown",
+    "PRODUCT_RED": "PRODUCT (RED)",
+    "Blue": "Blue",
+    "California_Poppy": "California Poppy",
+    "Baltic_Blue": "Baltic Blue",
+    "Pink_Citrus": "Pink Citrus",
+    "White": "White",
+    "Deep_Navy": "Deep Navy",
+    "Cyprus_Green": "Cyprus Green",
+    "Kumquat": "Kumquat",
+    "Plum": "Plum",
+    "Clear": "Clear"
 }
