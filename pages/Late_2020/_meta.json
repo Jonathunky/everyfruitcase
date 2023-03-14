@@ -11,5 +11,12 @@
     "Cyprus_Green": "Cyprus Green",
     "Kumquat": "Kumquat",
     "Plum": "Plum",
-    "Clear": "Clear"
+    "Clear": "Clear",
+    "hidden": {
+        "display": "hidden"
+    },
+    "shown": {
+        "title": "Shown",
+        "href": "/Late_2020/hidden"
+    }
 }
