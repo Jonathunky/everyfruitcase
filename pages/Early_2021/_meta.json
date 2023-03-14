@@ -1,5 +1,12 @@
 {
     "Arizona": "Arizona",
+    "iphone_drop": {
+        "title": "iPhone Case Drop",
+        "display": "hidden",
+        "theme": {
+            "pagination": false
+        }
+    },
     "Baltic_Blue": "Baltic Blue",
     "California_Poppy": "California Poppy",
     "Golden_Brown": "Golden Brown",

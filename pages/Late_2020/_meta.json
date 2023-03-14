@@ -1,6 +1,20 @@
 {
     "Black": "Black",
+    "iphone_drop": {
+        "title": "iPhone Case Drop",
+        "display": "hidden",
+        "theme": {
+            "pagination": false
+        }
+    },
     "Saddle_Brown": "Saddle Brown",
+    "magsafe_drop": {
+        "title": "iPhone Case Drop",
+        "display": "hidden",
+        "theme": {
+            "pagination": false
+        }
+    },
     "PRODUCT_RED": "(PRODUCT) RED",
     "Blue": "Blue",
     "California_Poppy": "California Poppy",
@@ -11,5 +25,5 @@
     "Cyprus_Green": "Cyprus Green",
     "Kumquat": "Kumquat",
     "Plum": "Plum",
-    "Clear": "Clear"
+    "Clear": "Clear Case"
 }

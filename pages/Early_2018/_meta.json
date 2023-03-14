@@ -1,5 +1,12 @@
 {
     "Electric_Blue": "Electric Blue",
+    "iphone_drop": {
+        "title": "iPhone Case Drop",
+        "display": "hidden",
+        "theme": {
+            "pagination": false
+        }
+    },
     "Soft_Pink": "Soft Pink",
     "Spring_Yellow": "Spring Yellow",
     "Bright_Orange": "Bright Orange",

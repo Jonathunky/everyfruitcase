@@ -1,5 +1,12 @@
 {
     "Meyer_Lemon": "Meyer Lemon",
+    "iphone_drop": {
+        "title": "iPhone Case Drop",
+        "display": "hidden",
+        "theme": {
+            "pagination": false
+        }
+    },
     "Forest_Green": "Forest Green",
     "Midnight_Blue": "Midnight Blue",
     "Saddle_Brown": "Saddle Brown",
@@ -11,5 +18,5 @@
     "Pink_Sand": "Pink Sand",
     "White": "White",
     "Aubergine": "Aubergine",
-    "Clear": "Clear"
+    "Clear": "Clear Case"
 }

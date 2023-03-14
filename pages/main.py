@@ -147,18 +147,35 @@ for drop, drop_data in colors.items():
 
 	# color | released things
 	for color, things in drop_data.items():
-
+		if color != "Clear":
 		# create folder for each color
-		dir = normalize_filename(drop + "/" + color)
-		os.makedirs(dir, exist_ok=True)
-		color_folders[normalize_filename(color)] = color
+			dir = normalize_filename(drop + "/" + color)
+			os.makedirs(dir, exist_ok=True)
+		# and mark them in a JSON file with color folders
+			color_folders[normalize_filename(color)] = color
+		else:
+			print(color)
+			color_folders[normalize_filename(color)] = "Clear Case"
+			with open(os.path.join(normalize_filename(drop + "/" + "clear.md")), "a+") as f:
+				f.seek(0)  # Move the cursor to the beginning of the file
+				if len(f.read(1)) == 0:  # Check if the file is empty
+					f.write("# You've stumbled upon a placeholder 🫠")
 
-		# now inside of that folder let's create a json
+		# now inside of that folder let's generate a json with models
 		jsonchik = {}
 		for model in things:
-			array = dict(title=models[model], href=normalize_filename(drop + "/" + model.split('_')[0] + "-drop.md"))
+			array = dict(title=models[model], href=normalize_filename("/" + drop + "/" + model.split('_')[0] + "_drop"))
 			jsonchik[model] = array
-			open(os.path.join(normalize_filename(drop + "/" + model.split('_')[0] + "-drop.md")), "a")
+			with open(os.path.join(normalize_filename(drop + "/" + model.split('_')[0] + "_drop.md")), "a+") as f:
+				f.seek(0)  # Move the cursor to the beginning of the file
+				if len(f.read(1)) == 0:  # Check if the file is empty
+					f.write("# You've stumbled upon a placeholder 🫠")
+			theme = {
+				"pagination": False
+			}
+			array = dict(title=models[model].split(' ')[0] + " Case Drop", display="hidden", theme=theme)
+			color_folders[model.split('_')[0] + "_drop"] = array
+
 		# print(json.dumps(jsonchik, indent=4))
 
 		with open(os.path.join(normalize_filename(drop + "/" + color), "_meta.json"), "w") as color_file:

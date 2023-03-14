@@ -1,5 +1,12 @@
 {
     "Peony_Pink": "Peony Pink",
+    "iphone_drop": {
+        "title": "iPhone Case Drop",
+        "display": "hidden",
+        "theme": {
+            "pagination": false
+        }
+    },
     "Cape_Cod_Blue": "Cape Cod Blue",
     "Forest_Green": "Forest Green",
     "Taupe": "Taupe",
@@ -13,5 +20,5 @@
     "Stone": "Stone",
     "Pink_Sand": "Pink Sand",
     "White": "White",
-    "Clear": "Clear"
+    "Clear": "Clear Case"
 }
