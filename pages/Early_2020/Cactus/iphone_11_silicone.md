@@ -1,2 +1,2 @@
-# iPhone 11 Silicone Case – Cactus
+# iPhone 11 / Pro / Max Silicone Case – Cactus
 

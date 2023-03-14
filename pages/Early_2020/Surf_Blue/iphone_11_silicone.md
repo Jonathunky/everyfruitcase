@@ -1,2 +1,2 @@
-# iPhone 11 Silicone Case – Surf Blue
+# iPhone 11 / Pro / Max Silicone Case – Surf Blue
 

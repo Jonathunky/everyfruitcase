@@ -1,2 +1,2 @@
-# iPhone 11 Smart Battery Case – Black
+# iPhone 11 / Pro / Max Smart Battery Case – Black
 

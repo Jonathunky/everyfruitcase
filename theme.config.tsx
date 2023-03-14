@@ -1,6 +1,11 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
+const footer = {
+  text: undefined,
+  component: undefined
+}
+
 const config: DocsThemeConfig = {
   logo: <span>CaseStack</span>,
   project: {
@@ -10,7 +15,7 @@ const config: DocsThemeConfig = {
     //link: 'https://discord.com',
   },
   docsRepositoryBase: 'https://github.com/JonathanX64/everyfruitcase',
-  footer: false,
+  footer: footer,
   sidebar: {
     defaultMenuCollapseLevel: 1
   },

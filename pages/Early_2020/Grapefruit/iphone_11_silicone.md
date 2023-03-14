@@ -1,2 +1,2 @@
-# iPhone 11 Silicone Case – Grapefruit
+# iPhone 11 / Pro / Max Silicone Case – Grapefruit
 
