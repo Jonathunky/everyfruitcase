@@ -1,10 +1,10 @@
 # Hello there!
  
-So you may have heard about [EveryMac](https://everymac.com/), the old-school yet functional catalog of Apple devices, complete with specs, order numbers, and more.
+So you may have heard about [EveryMac](https://everymac.com/), the old-school yet functional catalog of Apple devices, complete with specs, order numbers, and more. You may have also used [Bandbreite](https://bandbreite.watch/), a sleek and modern app for collecting Apple Watch bands. 
 
-You may have also used [Bandbreite](https://bandbreite.watch/), a sleek and modern app for collecting Apple Watch bands. 
+And you kept wondering: shouldn't there be at least one resource dedicated to device cases manufactured by Apple? Like that [Pink Citrus Leather Sleeve](Late_2020/iphone_drop) you slide your iPhone 12 mini into every day? 
 
-And you kept wondering: shouldn't there be at least one resource about device cases manufactured by Apple? Like that [Pink Citrus Leather Sleeve](Late_2020/iphone_drop) you slide your iPhone 12 mini into every day? Or that [Peony Pink Leather Case](Late_2018/iphone_drop) on your iPhone Xs, which you're still using as a backup because not all carriers support eSIM Quick Transfer, and you cannot just go to a carrier office for a replacement QR code because it's kinda located on the other side of the planet?
+Or that [Peony Pink Leather Case](Late_2018/iphone_drop) on your iPhone Xs, which you're still using as a backup because not all carriers support eSIM Quick Transfer, and you cannot just go to a carrier office for a replacement QR code because it's kinda located on the other side of the planet?
 
 A website designed for people who have never lost a thing in their life but still bought an AirTag 4-pack with a bunch of accessories just to show off their love for Wisteria? 
 
