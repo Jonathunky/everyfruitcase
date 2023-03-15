@@ -7,7 +7,7 @@ const footer = {
 }
 
 const config: DocsThemeConfig = {
-  logo: <span>EveryCase</span>,
+  logo: <span>👀 EveryCase</span>,
   project: {
     //link: 'https://github.com/shuding/nextra-docs-template',
   },
