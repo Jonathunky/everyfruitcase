@@ -1,0 +1,29 @@
+{
+    "Black": "Black",
+    "iphone_drop": {
+        "title": "iPhone Case Drop",
+        "display": "hidden",
+        "theme": {
+            "pagination": false
+        }
+    },
+    "Midnight_Blue": "Midnight Blue",
+    "Sea_Blue": "Sea Blue",
+    "Saddle_Brown": "Saddle Brown",
+    "Storm_Gray": "Storm Gray",
+    "Rose_Gray": "Rose Gray",
+    "Marine_Blue": "Marine Blue",
+    "Ocean_Blue": "Ocean Blue",
+    "Stone": "Stone",
+    "Turquoise": "Turquoise",
+    "Antique_White": "Antique White",
+    "Lilac": "Lilac",
+    "Mist_Blue": "Mist Blue",
+    "Bright_Pink": "Bright Pink",
+    "Apricot": "Apricot",
+    "Light_Pink": "Light Pink",
+    "Yellow": "Yellow",
+    "Orange": "Orange",
+    "Charcoal_Gray": "Charcoal Gray",
+    "Lavender": "Lavender"
+}

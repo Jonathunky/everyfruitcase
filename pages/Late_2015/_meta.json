@@ -1,0 +1,31 @@
+{
+    "Lavender": "Lavender",
+    "ipad_drop": {
+        "title": "iPad Case Drop",
+        "display": "hidden",
+        "theme": {
+            "pagination": false
+        }
+    },
+    "iphone_drop": {
+        "title": "iPhone Case Drop",
+        "display": "hidden",
+        "theme": {
+            "pagination": false
+        }
+    },
+    "Orange": "Orange",
+    "White": "White",
+    "Midnight_Blue": "Midnight Blue",
+    "Blue": "Blue",
+    "Light_Pink": "Light Pink",
+    "PRODUCTRED": "(PRODUCT)RED",
+    "Charcoal_Gray": "Charcoal Gray",
+    "Stone": "Stone",
+    "Antique_White": "Antique White",
+    "Turquoise": "Turquoise",
+    "Black": "Black",
+    "Saddle_Brown": "Saddle Brown",
+    "Rose_Gray": "Rose Gray",
+    "Brown": "Brown"
+}
