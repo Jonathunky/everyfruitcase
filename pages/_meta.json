@@ -1,46 +1,49 @@
 {
-	"index": {
-		"title": "Home",
-		"theme": {
-			"breadcrumb": false,
-			"typesetting": "article",
-			"footer": false,
-			"sidebar": true,
-			"toc": false,
-			"pagination": true,
-			"layout": "full"
-		}
-	},
-	"about": {
-		"title": "★ Credits",
-		"type": "page"
-	},
-	"support": {
-		"title": "♥ Leave your mark",
-		"type": "page"
-	},
-	"sep1": {
-		"type": "separator"
-	},
-	"Early_2023": "Early 2023",
-	"Late_2022": "Late 2022",
-	"Early_2022": "Early 2022",
-	"Late_2021": "Late 2021",
-	"Early_2021": "Early 2021",
-	"Late_2020": "Late 2020",
-	"Early_2020": "Early 2020",
-	"Late_2019": "Late 2019",
-	"Early_2019": "Early 2019",
-	"Late_2018": "Late 2018",
-	"Early_2018": "Early 2018",
-	"Late_2017": "Late 2017",
-	"Early_2017": "Early 2017",
-	"Late_2016": "Late 2016",
-	"Early_2016": "Early 2016",
-	"Late_2015": "Late 2015",
-	"Late_2014": "Late 2014",
-	"Late_2013": "Late 2013",
-	"sep2": {
-		"type": "separator"
-	}
+    "index": {
+        "title": "🏡 Home",
+        "theme": {
+            "breadcrumb": false,
+            "typesetting": "article",
+            "footer": false,
+            "sidebar": true,
+            "toc": false,
+            "pagination": true,
+            "layout": "full"
+        }
+    },
+    "about": {
+        "title": "★ Credits",
+        "type": "page"
+    },
+    "support": {
+        "title": "♥ Leave your mark",
+        "type": "page"
+    },
+    "library": {
+        "title": "🌈 Library of colors"
+    },
+    "sep1": {
+        "type": "separator"
+    },
+    "Early_2023": "Early 2023",
+    "Late_2022": "Late 2022",
+    "Early_2022": "Early 2022",
+    "Late_2021": "Late 2021",
+    "Early_2021": "Early 2021",
+    "Late_2020": "Late 2020",
+    "Early_2020": "Early 2020",
+    "Late_2019": "Late 2019",
+    "Early_2019": "Early 2019",
+    "Late_2018": "Late 2018",
+    "Early_2018": "Early 2018",
+    "Late_2017": "Late 2017",
+    "Early_2017": "Early 2017",
+    "Late_2016": "Late 2016",
+    "Early_2016": "Early 2016",
+    "Late_2015": "Late 2015",
+    "Late_2014": "Late 2014",
+    "Late_2013": "Late 2013",
+    "sep2": {
+        "type": "separator"
+    }
 }
