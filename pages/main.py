@@ -1,7 +1,6 @@
 import json
 import os
-import colors
-from models import models
+import case_skus
 
 
 def normalize_filename(filename):
@@ -11,22 +10,67 @@ def normalize_filename(filename):
 	# Replace any spaces with underscores
 	filename = filename.replace(' ', '_')
 
+	if filename.startswith('year_'):
+		filename = filename[5:]
+
 	return filename
 
 
+def generate_markdown(path, names):
+	return names
+
+
+def generate_folders(path, names):
+	return names
+
+
+def generate_jsons(path, names):
+	return names
+
+
+# BEGIN
+
+data_list = []
+
+filtered_variables = [variable_name for variable_name in dir(case_skus) if not variable_name.startswith('_')]
+for variable_name in filtered_variables:
+	variable_data = getattr(case_skus, variable_name),  # globals()[variable_name]
+	data_dict = {
+		"name": variable_name,
+		"data": variable_data
+	}
+	data_list.append(data_dict)
+	print(normalize_filename(data_dict["name"]))
+
+
+
+
+
+
+	'''
 
 # Year / Color / Device
-for drop, drop_data in colors.colors.items():
-	os.makedirs(normalize_filename(drop), exist_ok=True)  # create Year folder
-	color_folders = {}
+for drop in dir(case_skus):
+	variable_value = getattr(case_skus, drop)
+	os.makedirs(normalize_filename(variable_value), exist_ok=True)  # create Year folder
+	colors = [item[1] for item in variable_value.values()]
+	print(colors)
+
+
+
+
+
+
+
 
 	# color | released things
 	for color, things in drop_data.items():
+		
 		if color != "Clear":
-		# create folder for each color
+			# create folder for each color
 			dir = normalize_filename(drop + "/" + color)
 			os.makedirs(dir, exist_ok=True)
-		# and mark them in a JSON file with color folders
+			# and mark them in a JSON file with color folders
 			color_folders[normalize_filename(color)] = color
 		else:
 			dir = normalize_filename(drop + "/" + color)
@@ -38,6 +82,7 @@ for drop, drop_data in colors.colors.items():
 				if len(f.read(1)) == 0:  # Check if the file is empty
 					f.write("# You've stumbled upon a placeholder 🫠")
 
+		
 		# now inside of that folder let's generate a json with models
 		jsonchik = {}
 		for model in things:
@@ -60,7 +105,7 @@ for drop, drop_data in colors.colors.items():
 
 	with open(os.path.join(normalize_filename(drop + "/"), "_meta.json"), "w") as drop_file:
 		drop_file.write(json.dumps(color_folders, indent=4))
-		'''
+		
 				# JSON generation
 		color_folders[normalize_filename(color)] = color
 		device_files = {}
@@ -76,6 +121,4 @@ for drop, drop_data in colors.colors.items():
 			else:
 				with open(filename, "w") as color_file:
 					color_file.write("# " + models[model] + " – " + color + "\n ")
-
-
 '''

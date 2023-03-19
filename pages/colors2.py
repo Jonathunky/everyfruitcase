@@ -1,12 +1,13 @@
 
+#if year_ then
+
+
+
+
 # this is a baseline for the primary table of contents
-colors = {
-	"2004": {
-		""
-	},
-	"2010": {
-		""
-	},
+year_name = {
+	"2004": "year_2004",
+	"2010": "year_2010",
 
 	"Late 2011": {
 		""
