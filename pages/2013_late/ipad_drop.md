@@ -1,7 +1,11 @@
 # 2013 | iPad
-That Fall, Apple released two very good iPads: Air 1 and mini 2
+On November 1, 2013, Apple released two very, very good iPads: 
+iPad Air
+iPad mini 2
 
-Each of them got an accompanying Smart Case, made out of leather, in following colors:
+Air's design was mostly inspired by 2012's iPad mini, and it was reused right until release of 10th generation 'just iPad' in late 2022.
+
+Each of these devices got an accompanying Smart Case, made out of leather, in following colors:
 
 - "Brown"  
 - "Beige"  

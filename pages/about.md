@@ -1,11 +1,11 @@
-# Brought to you by:
-Carefully crafted on **Lovedead** island by one and only [@Jonathunky](https://twitter.com/Jonathunky)
+# Credits and such
+This website was carefully crafted on <span style="color:pink">**Lovedead**</span> island by [@Jonathunky](https://twitter.com/Jonathunky).
 
-# Special thanks to:
-The website is made with [Nextra](https://github.com/shuding/nextra), which is created by [Shu Ding](https://shud.in/) and has [MIT license](https://github.com/shuding/nextra/blob/main/LICENSE)
+I would like to give a special thanks to the following people and projects:
 
-It's hosted on Fly.io, which has generous free tier; seems to be the only provider that offers three hosting locations instead of one.  
+- [Nextra](https://nextra.site/), the site generation framework created by [Shu Ding](https://shud.in/). Nextra is released under the [MIT license](https://github.com/shuding/nextra/blob/main/LICENSE).
+- [Fly.io](https://fly.io/), which provides a very generous free tier hosting plan and is the only provider offering three hosting locations.
+- My dear friends, who helped us with testing, writing text, and more.
 
-My dearest friends helped me with testing and writing text and such
-
-# Contributors / Patreons:
+# Contributors / 'Patreons':
+You're quite welcome to donate and become listed here! Here's the [guide](support).
