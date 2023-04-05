@@ -29,13 +29,14 @@ Spring_2011 = {
 }
 
 Autumn_2011 = {
+    # now colored on the inside! all of them! neat!
     "MD306LL/A": ["iPad Smart Cover", "Dark Gray"],
     "MD307LL/A": ["iPad Smart Cover", "Light Gray"],
     "MD308LL/A": ["iPad Smart Cover", "Pink"],
     "MD309LL/A": ["iPad Smart Cover", "Green"],
     "MD310LL/A": ["iPad Smart Cover", "Blue"],
+    # no orange though...
 
-    # now colored on the inside!
     "MD301LL/A": ["iPad Leather Smart Cover", "Black"],
     "MD302LL/A": ["iPad Leather Smart Cover", "Tan"],
     "MD303LL/A": ["iPad Leather Smart Cover", "Navy"],
@@ -68,12 +69,6 @@ Autumn_2012 = {
 }
 
 year_2013 = {
-    "MF059LL/A": ["iPad Mini Smart Cover", "Black"],
-    "MF060LL/A": ["iPad Mini Smart Cover", "Blue"],
-    "MF061LL/A": ["iPad Mini Smart Cover", "Pink"],
-    "MF062LL/A": ["iPad Mini Smart Cover", "Green"],
-    "MF063LL/A": ["iPad Mini Smart Cover", "Yellow"],
-    "MF394LL/A": ["iPad Mini Smart Cover", "Red"],
 
     "MF053LL/A": ["iPad Air Smart Cover", "Black"],
     "MF054LL/A": ["iPad Air Smart Cover", "Blue"],
@@ -82,19 +77,26 @@ year_2013 = {
     "MF057LL/A": ["iPad Air Smart Cover", "Yellow"],
     "MF058LL/A": ["iPad Air Smart Cover", "Red"],
 
+    "MF059LL/A": ["iPad Mini Smart Cover", "Black"],
+    "MF060LL/A": ["iPad Mini Smart Cover", "Blue"],
+    "MF061LL/A": ["iPad Mini Smart Cover", "Pink"],
+    "MF062LL/A": ["iPad Mini Smart Cover", "Green"],
+    "MF063LL/A": ["iPad Mini Smart Cover", "Yellow"],
+    "MF394LL/A": ["iPad Mini Smart Cover", "Red"],
+
+    "MF047LL/A": ["iPad Air Smart Case", "Brown"],
+    "MF048LL/A": ["iPad Air Smart Case", "Beige"],
+    "MF049LL/A": ["iPad Air Smart Case", "Yellow"],
+    "MF050LL/A": ["iPad Air Smart Case", "Blue"],
+    "MF051LL/A": ["iPad Air Smart Case", "Black"],
+    "MF052LL/A": ["iPad Air Smart Case", "Red"],
+
     "ME706LL/A": ["iPad Mini Smart Case", "Brown"],
     "ME707LL/A": ["iPad Mini Smart Case", "Beige"],
     "ME708LL/A": ["iPad Mini Smart Case", "Yellow"],
     "ME709LL/A": ["iPad Mini Smart Case", "Blue"],
     "ME710LL/A": ["iPad Mini Smart Case", "Black"],
     "ME711LL/A": ["iPad Mini Smart Case", "Red"],
-
-    "MF047LL/A": ["iPad Air Smart Case", "Brown"],
-    "MF048LL/A": ["iPad Air] Smart Case", "Beige"],
-    "MF049LL/A": ["iPad Air Smart Case", "Yellow"],
-    "MF050LL/A": ["iPad Air Smart Case", "Blue"],
-    "MF051LL/A": ["iPad Air Smart Case", "Black"],
-    "MF052LL/A": ["iPad Air Smart Case", "Red"],
 
     "MF041LL/A": ["iPhone 5s Case", "Brown"],
     "MF042LL/A": ["iPhone 5s Case", "Beige"],
@@ -142,20 +144,6 @@ Autumn_2014 = {
     "MGQX2ZM/A": ["iPhone 6 Plus Leather Case", "Black"],
     "MGQY2ZM/A": ["iPhone 6 Plus Leather Case", "(PRODUCT)RED"],
 
-    "MGMN2ZM/A": ["iPad mini Smart Case", "Olive Brown"],
-    "MGMW2ZM/A": ["iPad mini Smart Case", "Midnight Blue"],
-    "MGN32ZM/A": ["iPad mini Smart Case", "Soft Pink"],
-    "MGN62ZM/A": ["iPad mini Smart Case", "Black"],
-    "MGND2ZM/A": ["iPad mini Smart Case", "(PRODUCT)RED"],
-
-    "MGNC2ZM/A": ["iPad mini Smart Cover", "Black"],
-    "MGNK2ZM/A": ["iPad mini Smart Cover", "White"],
-    "MGNL2ZM/A": ["iPad mini Smart Cover", "(PRODUCT)RED"],
-    "MGNM2ZM/A": ["iPad mini Smart Cover", "Blue"],
-    "MGNN2ZM/A": ["iPad mini Smart Cover", "Pink"],
-    "MGNQ2ZM/A": ["iPad mini Smart Cover", "Green"],
-    "MGNT2ZM/A": ["iPad mini Smart Cover", "Yellow"],
-
     "MGTM2ZM/A": ["iPad Air Smart Cover", "Black"],  # air 1 & 2
     "MGTN2ZM/A": ["iPad Air Smart Cover", "White"],
     "MGTP2ZM/A": ["iPad Air Smart Cover", "(PRODUCT)RED"],
@@ -168,7 +156,21 @@ Autumn_2014 = {
     "MGTT2ZM/A": ["iPad Air 2 Smart Case", "Midnight Blue"],
     "MGTU2ZM/A": ["iPad Air 2 Smart Case", "Soft Pink"],
     "MGTV2ZM/A": ["iPad Air 2 Smart Case", "Black"],
-    "MGTW2ZM/A": ["iPad Air 2 Smart Case", "(PRODUCT)RED"]
+    "MGTW2ZM/A": ["iPad Air 2 Smart Case", "(PRODUCT)RED"],
+
+    "MGMN2ZM/A": ["iPad mini Smart Case", "Olive Brown"],
+    "MGMW2ZM/A": ["iPad mini Smart Case", "Midnight Blue"],
+    "MGN32ZM/A": ["iPad mini Smart Case", "Soft Pink"],
+    "MGN62ZM/A": ["iPad mini Smart Case", "Black"],
+    "MGND2ZM/A": ["iPad mini Smart Case", "(PRODUCT)RED"],
+
+    "MGNC2ZM/A": ["iPad mini Smart Cover", "Black"],
+    "MGNK2ZM/A": ["iPad mini Smart Cover", "White"],
+    "MGNL2ZM/A": ["iPad mini Smart Cover", "(PRODUCT)RED"],
+    "MGNM2ZM/A": ["iPad mini Smart Cover", "Blue"],
+    "MGNN2ZM/A": ["iPad mini Smart Cover", "Pink"],
+    "MGNQ2ZM/A": ["iPad mini Smart Cover", "Green"],
+    "MGNT2ZM/A": ["iPad mini Smart Cover", "Yellow"]
 }
 
 Autumn_2015 = {
@@ -245,22 +247,48 @@ Autumn_2015 = {
 }
 
 kinda_2016_but_in_2015_colors = {
-    "MM222AM/A": ["Silicone Case for 9.7-inch iPad Pro", "(PRODUCT)RED"],
-    "MM1Y2AM/A": ["Silicone Case for 9.7-inch iPad Pro", "Charcoal Grey"],
-    "MM272AM/A": ["Silicone Case for 9.7-inch iPad Pro", "Lavender"],
-    "MM212AM/A": ["Silicone Case for 9.7-inch iPad Pro", "Midnight Blue"],
-    "MM232AM/A": ["Silicone Case for 9.7-inch iPad Pro", "Stone"],
-    "MM202AM/A": ["Silicone Case for 9.7-inch iPad Pro", "White"],
+    "MM222AM/A": ["iPad Pro 9.7″ Silicone Case", "(PRODUCT)RED"],
+    "MM1Y2AM/A": ["iPad Pro 9.7″ Silicone Case", "Charcoal Grey"],
+    "MM272AM/A": ["iPad Pro 9.7″ Silicone Case", "Lavender"],
+    "MM212AM/A": ["iPad Pro 9.7″ Silicone Case", "Midnight Blue"],
+    "MM232AM/A": ["iPad Pro 9.7″ Silicone Case", "Stone"],
+    "MM202AM/A": ["iPad Pro 9.7″ Silicone Case", "White"],
 
-    "MM2D2AM/A": ["Smart Cover for 9.7-inch iPad Pro", "(PRODUCT)RED"],
-    "MM292AM/A": ["Smart Cover for 9.7-inch iPad Pro", "Charcoal Grey"],
-    "MM2J2AM/A": ["Smart Cover for 9.7-inch iPad Pro", "Lavender"],
-    "MM2C2AM/A": ["Smart Cover for 9.7-inch iPad Pro", "Midnight Blue"],
-    "MM2E2AM/A": ["Smart Cover for 9.7-inch iPad Pro", "Stone"],
-    "MM2A2AM/A": ["Smart Cover for 9.7-inch iPad Pro", "White"],
+    "MM2D2AM/A": ["iPad Pro 9.7″ Smart Cover", "(PRODUCT)RED"],
+    "MM292AM/A": ["iPad Pro 9.7″ Smart Cover", "Charcoal Grey"],
+    "MM2J2AM/A": ["iPad Pro 9.7″ Smart Cover", "Lavender"],
+    "MM2C2AM/A": ["iPad Pro 9.7″ Smart Cover", "Midnight Blue"],
+    "MM2E2AM/A": ["iPad Pro 9.7″ Smart Cover", "Stone"],
+    "MM2A2AM/A": ["iPad Pro 9.7″ Smart Cover", "White"],
 }
 
 early_2016 = {  # first ever spring drop!
+    
+    "MMM22ZM/A": ["iPhone 6s Leather Case", "Marigold"],
+    "MM4G2ZM/A": ["iPhone 6s Leather Case", "Marine Blue"],
+    "MM4D2ZM/A": ["iPhone 6s Leather Case", "Storm Gray"],
+
+    "MMM32ZM/A": ["iPhone 6s Plus Leather Case", "Marigold"],
+    "MM362ZM/A": ["iPhone 6s Plus Leather Case", "Marine Blue"],
+    "MM322ZM/A": ["iPhone 6s Plus Leather Case", "Storm Gray"],
+
+    "MM642ZM/A": ["iPhone 6s Silicone Case", "Apricot"],
+    "MM622ZM/A": ["iPhone 6s Silicone Case", "Lavender"],
+    "MM682ZM/A": ["iPhone 6s Silicone Case", "Light Pink"],
+    "MM672ZM/A": ["iPhone 6s Silicone Case", "Mint"],
+    "MM632ZM/A": ["iPhone 6s Silicone Case", "Royal Blue"],
+    "MM662ZM/A": ["iPhone 6s Silicone Case", "Yellow"],
+
+    "MM6F2ZM/A": ["iPhone 6s Plus Silicone Case", "Apricot"],
+    "MM6D2ZM/A": ["iPhone 6s Plus Silicone Case", "Lavender"],
+    "MM6A2ZM/A": ["iPhone 6s Plus Silicone Case", "Light Pink"],
+    "MM692ZM/A": ["iPhone 6s Plus Silicone Case", "Mint"],
+    "MM6E2ZM/A": ["iPhone 6s Plus Silicone Case", "Royal Blue"],
+    "MM6H2ZM/A": ["iPhone 6s Plus Silicone Case", "Yellow"],
+
+    "MMHH2ZM/A": ["iPhone SE Leather Case", "Black"],
+    "MMHG2ZM/A": ["iPhone SE Leather Case", "Midnight Blue"],
+
     "MM3L2ZM/A": ["iPad mini 4 Silicone Case", "Light Pink"],
     "MMM42ZM/A": ["iPad mini 4 Silicone Case", "Lilac"],
     "MMJY2ZM/A": ["iPad mini 4 Silicone Case", "Mint"],
@@ -275,44 +303,20 @@ early_2016 = {  # first ever spring drop!
     "MM2U2ZM/A": ["iPad mini 4 Smart Cover", "Royal Blue"],
     "MM2X2ZM/A": ["iPad mini 4 Smart Cover", "Yellow"],
 
-    "MM262AM/A": ["Silicone Case for 9.7-inch iPad Pro", "Apricot"],
-    "MM242AM/A": ["Silicone Case for 9.7-inch iPad Pro", "Light Pink"],
-    "MMG52AM/A": ["Silicone Case for 9.7-inch iPad Pro", "Lilac"],
-    "MMG42AM/A": ["Silicone Case for 9.7-inch iPad Pro", "Mint"],
-    "MM252AM/A": ["Silicone Case for 9.7-inch iPad Pro", "Royal Blue"],
-    "MM282AM/A": ["Silicone Case for 9.7-inch iPad Pro", "Yellow"],
+    "MM262AM/A": ["iPad Pro 9.7″ Silicone Case", "Apricot"],
+    "MM242AM/A": ["iPad Pro 9.7″ Silicone Case", "Light Pink"],
+    "MMG52AM/A": ["iPad Pro 9.7″ Silicone Case", "Lilac"],
+    "MMG42AM/A": ["iPad Pro 9.7″ Silicone Case", "Mint"],
+    "MM252AM/A": ["iPad Pro 9.7″ Silicone Case", "Royal Blue"],
+    "MM282AM/A": ["iPad Pro 9.7″ Silicone Case", "Yellow"],
 
-    "MM2H2AM/A": ["Smart Cover for 9.7-inch iPad Pro", "Apricot"],
-    "MM2F2AM/A": ["Smart Cover for 9.7-inch iPad Pro", "Light Pink"],
-    "MMG72AM/A": ["Smart Cover for 9.7-inch iPad Pro", "Lilac"],
-    "MMG62AM/A": ["Smart Cover for 9.7-inch iPad Pro", "Mint"],
-    "MM2G2AM/A": ["Smart Cover for 9.7-inch iPad Pro", "Royal Blue"],
-    "MM2K2AM/A": ["Smart Cover for 9.7-inch iPad Pro", "Yellow"],
+    "MM2H2AM/A": ["iPad Pro 9.7″ Smart Cover", "Apricot"],
+    "MM2F2AM/A": ["iPad Pro 9.7″ Smart Cover", "Light Pink"],
+    "MMG72AM/A": ["iPad Pro 9.7″ Smart Cover", "Lilac"],
+    "MMG62AM/A": ["iPad Pro 9.7″ Smart Cover", "Mint"],
+    "MM2G2AM/A": ["iPad Pro 9.7″ Smart Cover", "Royal Blue"],
+    "MM2K2AM/A": ["iPad Pro 9.7″ Smart Cover", "Yellow"],
 
-    "MMM22ZM/A": ["iPhone 6s Leather Case", "Marigold"],
-    "MM4G2ZM/A": ["iPhone 6s Leather Case", "Marine Blue"],
-    "MM4D2ZM/A": ["iPhone 6s Leather Case", "Storm Gray"],
-
-    "MMM32ZM/A": ["iPhone 6s Plus Leather Case", "Marigold"],
-    "MM362ZM/A": ["iPhone 6s Plus Leather Case", "Marine Blue"],
-    "MM322ZM/A": ["iPhone 6s Plus Leather Case", "Storm Gray"],
-
-    "MM6F2ZM/A": ["iPhone 6s Plus Silicone Case", "Apricot"],
-    "MM6D2ZM/A": ["iPhone 6s Plus Silicone Case", "Lavender"],
-    "MM6A2ZM/A": ["iPhone 6s Plus Silicone Case", "Light Pink"],
-    "MM692ZM/A": ["iPhone 6s Plus Silicone Case", "Mint"],
-    "MM6E2ZM/A": ["iPhone 6s Plus Silicone Case", "Royal Blue"],
-    "MM6H2ZM/A": ["iPhone 6s Plus Silicone Case", "Yellow"],
-
-    "MM642ZM/A": ["iPhone 6s Silicone Case", "Apricot"],
-    "MM622ZM/A": ["iPhone 6s Silicone Case", "Lavender"],
-    "MM682ZM/A": ["iPhone 6s Silicone Case", "Light Pink"],
-    "MM672ZM/A": ["iPhone 6s Silicone Case", "Mint"],
-    "MM632ZM/A": ["iPhone 6s Silicone Case", "Royal Blue"],
-    "MM662ZM/A": ["iPhone 6s Silicone Case", "Yellow"],
-
-    "MMHH2ZM/A": ["iPhone SE Leather Case", "Black"],
-    "MMHG2ZM/A": ["iPhone SE Leather Case", "Midnight Blue"],
 }
 
 Autumn_2016 = {
@@ -337,11 +341,6 @@ Autumn_2016 = {
     "MN002LL/A": ["iPhone 7 Smart Battery Case", "Black"],
     "MN012LL/A": ["iPhone 7 Smart Battery Case", "White"],
 
-    # at a bit later date
-    "MN022LL/A": ["iPhone 7 Smart Battery Case", "(PRODUCT)RED"],
-    # at a bit later date
-    "MNYV2ZM/A": ["iPhone SE Leather Case", "(PRODUCT)RED"],
-
     "MMYK2ZM/A": ["iPhone 7 Plus Leather Case", "(PRODUCT)RED"],
     "MMYJ2ZM/A": ["iPhone 7 Plus Leather Case", "Black"],
     "MMYG2ZM/A": ["iPhone 7 Plus Leather Case", "Midnight Blue"],
@@ -360,6 +359,11 @@ Autumn_2016 = {
     "MMQW2ZM/A": ["iPhone 7 Plus Silicone Case", "Stone"],
     "MMQT2ZM/A": ["iPhone 7 Plus Silicone Case", "White"],
 
+    # at a bit later date
+    "MN022LL/A": ["iPhone 7 Smart Battery Case", "(PRODUCT)RED"],
+    # at a bit later date
+    "MNYV2ZM/A": ["iPhone SE Leather Case", "(PRODUCT)RED"],
+
     "MNNE2ZM/A": ["iPad mini 4 Silicone Case", "Cocoa"],
     "MN2N2ZM/A": ["iPad mini 4 Silicone Case", "Ocean Blue"],
     "MNND2ZM/A": ["iPad mini 4 Silicone Case", "Pink Sand"],
@@ -370,15 +374,15 @@ Autumn_2016 = {
     "MNN32ZM/A": ["iPad mini 4 Smart Cover", "Pink Sand"],
     "MN0A2ZM/A": ["iPad mini 4 Smart Cover", "Sea Blue"],
 
-    "MNN82ZM/A": ["Silicone Case for 9.7-inch iPad Pro", "Cocoa"],
-    "MN2F2ZM/A": ["Silicone Case for 9.7-inch iPad Pro", "Ocean Blue"],
-    "MNN72ZM/A": ["Silicone Case for 9.7-inch iPad Pro", "Pink Sand"],
-    "MN2G2ZM/A": ["Silicone Case for 9.7-inch iPad Pro", "Sea Blue"],
+    "MNN82ZM/A": ["iPad Pro 9.7″ Silicone Case", "Cocoa"],
+    "MN2F2ZM/A": ["iPad Pro 9.7″ Silicone Case", "Ocean Blue"],
+    "MNN72ZM/A": ["iPad Pro 9.7″ Silicone Case", "Pink Sand"],
+    "MN2G2ZM/A": ["iPad Pro 9.7″ Silicone Case", "Sea Blue"],
 
-    "MNNC2ZM/A": ["Smart Cover for 9.7-inch iPad Pro", "Cocoa"],
-    "MN462ZM/A": ["Smart Cover for 9.7-inch iPad Pro", "Ocean Blue"],
-    "MNN92ZM/A": ["Smart Cover for 9.7-inch iPad Pro", "Pink Sand"],
-    "MN472ZM/A": ["Smart Cover for 9.7-inch iPad Pro", "Sea Blue"]
+    "MNNC2ZM/A": ["iPad Pro 9.7″ Smart Cover", "Cocoa"],
+    "MN462ZM/A": ["iPad Pro 9.7″ Smart Cover", "Ocean Blue"],
+    "MNN92ZM/A": ["iPad Pro 9.7″ Smart Cover", "Pink Sand"],
+    "MN472ZM/A": ["iPad Pro 9.7″ Smart Cover", "Sea Blue"]
 
 }
 
@@ -632,4 +636,6 @@ def generate_markdown_files(data, folder_name):
         json.dump(metadata, meta_file, indent=4)
 
 
-generate_markdown_files(Autumn_2014, "Late_2014")
+# generate_markdown_files(early_2017, "Early_2017")
+generate_markdown_files(Autumn_2016, "Late_2016")
+

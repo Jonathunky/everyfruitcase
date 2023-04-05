@@ -1,13 +1,5 @@
 {
-    "Camellia": "Camellia",
-    "iphone_drop": {
-        "title": "iPhone Case Drop",
-        "display": "hidden",
-        "theme": {
-            "pagination": false
-        }
-    },
-    "Berry": "Berry",
-    "Azure": "Azure",
-    "Pebble": "Pebble"
+    "iphone___leather_case": "iPhone | Leather Case",
+    "iphone___silicone_case": "iPhone | Silicone Case",
+    "ipad___smart_cover": "iPad | Smart Cover"
 }
