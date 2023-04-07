@@ -23,7 +23,8 @@ const config: DocsThemeConfig = {
     </>
   ),
   project: {
-    //link: 'https://github.com/shuding/nextra-docs-template',
+    // github link; will spawn it in the title bar
+    // link: 'https://github.com/shuding/nextra-docs-template',
   },
   chat: {
     //link: 'https://discord.com',
