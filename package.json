@@ -29,7 +29,10 @@
 	"devDependencies": {
 		"@types/node": "latest",
 		"@types/react": "latest",
+		"@typescript-eslint/eslint-plugin": "latest",
+		"@typescript-eslint/parser": "latest",
 		"eslint": "latest",
+		"eslint-plugin-import": "latest",
 		"typescript": "latest"
 	}
 }
