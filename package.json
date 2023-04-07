@@ -1,6 +1,7 @@
 {
+	"private": true,
 	"name": "everycase",
-	"version": "0.2.5",
+	"version": "0.2.6",
 	"description": "A website with every case accessory made by Apple, Inc.",
 	"scripts": {
 		"dev": "next dev",
@@ -23,7 +24,7 @@
 		"nextra-theme-docs": "latest",
 		"react": "latest",
 		"react-dom": "latest",
-		"sharp": "^0.32.0"
+		"sharp": "latest"
 	},
 	"devDependencies": {
 		"@types/node": "latest",

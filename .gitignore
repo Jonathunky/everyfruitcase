@@ -18,3 +18,4 @@ packages/nextra-theme-*/style.css
 .env
 
 /pages/.obsidian/
+yarn.lock
