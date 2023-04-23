@@ -29,6 +29,7 @@
     "sharp": "latest"
   },
   "devDependencies": {
+    "@napi-rs/simple-git": "latest",
     "@next/eslint-plugin-next": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
