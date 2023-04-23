@@ -25,7 +25,7 @@
     "nextra-theme-docs": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "react-markdown": "^8.0.6",
+    "react-markdown": "latest",
     "sharp": "latest"
   },
   "devDependencies": {
