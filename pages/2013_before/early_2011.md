@@ -14,8 +14,8 @@ Apple offered two types of Smart Covers: Polyurethane covers for $39.00, and for
 | MC942LL/A | MC939LL/A | MC944LL/A | MC945LL/A | MC941LL/A |
 
 The first generation of Polyurethane Smart Covers had a grey interior that did not match the exterior color. 
-### iPad Leather Smart Cover 
 
+### iPad Leather Smart Cover 
 | Black | Cream | Navy | Tan |
 |-----|-----|-----|-----|
 | MC947LL/A | MC952LL/A | MC949LL/A | MC948LL/A |
