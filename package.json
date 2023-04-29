@@ -26,7 +26,8 @@
     "react": "latest",
     "react-dom": "latest",
     "react-markdown": "latest",
-    "sharp": "latest"
+    "sharp": "latest",
+    "@vercel/analytics": "latest"
   },
   "devDependencies": {
     "@napi-rs/simple-git": "latest",
