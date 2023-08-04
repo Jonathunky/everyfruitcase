@@ -13,25 +13,25 @@ const config: DocsThemeConfig = {
       />
       <span
         style={{
-          fontFamily: 'Helvetica',
+          fontFamily: 'Helvetica Neue',
           fontWeight: 'bold',
           fontSize: '24px',
           letterSpacing: '0px',
-          color: '#333'
+          //color: '#333'
         }}
       >EveryCase</span>
     </>
   ),
   project: {
     // github link; will spawn it in the title bar
-    // link: 'https://github.com/shuding/nextra-docs-template',
+    //link: 'https://github.com/JonathanX64/everyfruitcase',
   },
   chat: {
     //link: 'https://discord.com',
   },
   docsRepositoryBase: 'https://github.com/JonathanX64/everyfruitcase',
   footer: {
-    text: undefined,
+    //text: "Yeah",
     component: undefined
   },
   sidebar: {
@@ -45,6 +45,10 @@ const config: DocsThemeConfig = {
     if (asPath !== '/') {
       return {
         titleTemplate: '%s – EveryCase'
+      }
+    } else {
+      return {
+        titleTemplate: 'EveryCase'
       }
     }
   },

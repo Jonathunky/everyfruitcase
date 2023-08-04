@@ -1,5 +1,3 @@
-import os
-import json
 year_2004 = {
     "M9720G/B": "iPod Socks 6 pack"
 }
@@ -67,50 +65,27 @@ Autumn_2012 = {
     "MD974LL/A": ["iPod Touch Loop", "Blue"]
 }
 
-year_2013 = {
+ipad_2013_cover = [
+    [1, 'Model / Color', 'Blue', 'Green', 'Pink', 'Red', 'Yellow', 'Black'],
+    [2, 'iPad Air Smart Cover', 'MF054LL/A', 'MF056LL/A', 'MF055LL/A', 'MF058LL/A', 'MF057LL/A', 'MF053LL/A'],
+    [3, 'iPad Mini Smart Cover', 'MF060LL/A', 'MF062LL/A', 'MF061LL/A', 'MF394LL/A', 'MF063LL/A', 'MF059LL/A'],
+]
 
-    "MF053LL/A": ["iPad Air Smart Cover", "Black"],
-    "MF054LL/A": ["iPad Air Smart Cover", "Blue"],
-    "MF055LL/A": ["iPad Air Smart Cover", "Pink"],
-    "MF056LL/A": ["iPad Air Smart Cover", "Green"],
-    "MF057LL/A": ["iPad Air Smart Cover", "Yellow"],
-    "MF058LL/A": ["iPad Air Smart Cover", "Red"],
+ipad_2013_case = [
+    [1, 'Model / Color', 'Brown', 'Blue', 'Red', 'Beige', 'Yellow', 'Black'],
+    [2, 'iPad Air Smart Case', 'MF047LL/A', 'MF050LL/A', 'MF052LL/A', 'MF048LL/A', 'MF049LL/A', 'MF051LL/A'],
+    [3, 'iPad Mini Smart Case', 'ME706LL/A', 'ME709LL/A', 'ME711LL/A', 'ME707LL/A', 'ME708LL/A', 'ME710LL/A'],
+]
 
-    "MF059LL/A": ["iPad Mini Smart Cover", "Black"],
-    "MF060LL/A": ["iPad Mini Smart Cover", "Blue"],
-    "MF061LL/A": ["iPad Mini Smart Cover", "Pink"],
-    "MF062LL/A": ["iPad Mini Smart Cover", "Green"],
-    "MF063LL/A": ["iPad Mini Smart Cover", "Yellow"],
-    "MF394LL/A": ["iPad Mini Smart Cover", "Red"],
+iphone_5c = [
+    [1, 'Model / Color', 'White', 'Black', 'Yellow', 'Pink', 'Green', 'Blue'],
+    [2, 'iPhone 5c Case', 'MF039ZM/A', 'MF040ZM/A', 'MF038ZM/A', 'MF036ZM/A', 'MF037ZM/A', 'MF035ZM/A'],
+]
 
-    "MF047LL/A": ["iPad Air Smart Case", "Brown"],
-    "MF048LL/A": ["iPad Air Smart Case", "Beige"],
-    "MF049LL/A": ["iPad Air Smart Case", "Yellow"],
-    "MF050LL/A": ["iPad Air Smart Case", "Blue"],
-    "MF051LL/A": ["iPad Air Smart Case", "Black"],
-    "MF052LL/A": ["iPad Air Smart Case", "Red"],
-
-    "ME706LL/A": ["iPad Mini Smart Case", "Brown"],
-    "ME707LL/A": ["iPad Mini Smart Case", "Beige"],
-    "ME708LL/A": ["iPad Mini Smart Case", "Yellow"],
-    "ME709LL/A": ["iPad Mini Smart Case", "Blue"],
-    "ME710LL/A": ["iPad Mini Smart Case", "Black"],
-    "ME711LL/A": ["iPad Mini Smart Case", "Red"],
-
-    "MF041LL/A": ["iPhone 5s Case", "Brown"],
-    "MF042LL/A": ["iPhone 5s Case", "Beige"],
-    "MF043LL/A": ["iPhone 5s Case", "Yellow"],
-    "MF044LL/A": ["iPhone 5s Case", "Blue"],
-    "MF045LL/A": ["iPhone 5s Case", "Black"],
-    "MF046LL/A": ["iPhone 5s Case", "Red"],
-
-    "MF035ZM/A": ["iPhone 5c Case", "Blue"],
-    "MF036ZM/A": ["iPhone 5c Case", "Pink"],
-    "MF037ZM/A": ["iPhone 5c Case", "Green"],
-    "MF038ZM/A": ["iPhone 5c Case", "Yellow"],
-    "MF039ZM/A": ["iPhone 5c Case", "White"],
-    "MF040ZM/A": ["iPhone 5c Case", "Black"]
-}
+iphone_5s = [
+    [1, 'Model / Color', 'Red', 'Black', 'Yellow', 'Beige', 'Blue', 'Brown'],
+    [2, 'iPhone 5s Case', 'MF046LL/A', 'MF045LL/A', 'MF043LL/A', 'MF042LL/A', 'MF044LL/A', 'MF041LL/A']
+]
 
 year_2014 = {
     "MF631ZM/A": ["iPod Touch Loop", "Space Gray"]
@@ -572,6 +547,7 @@ late_2018 = {
     # + XR Clear Case
 }
 
+
 # https://www.macrumors.com/2019/03/20/spring-colors-cases-bands/
 
 
@@ -598,70 +574,59 @@ def create_markdown_file(folder_name, file_title, page_title, devices_data):
             file.write("| " + " | ".join(sorted_colors) + " |\n")
             file.write("|" + "|".join(["-----"] * len(sorted_colors)) + "|\n")
             file.write("| " + " | ".join([color_to_sku[color]
-                       for color in sorted_colors]) + " |\n\n")
+                                          for color in sorted_colors]) + " |\n\n")
 
     return file_name
 
 
-def generate_markdown_files(data, folder_name):
-    devices = {}
-    metadata = {}
+def create_table_from_dict(data_dict):
+    # Create the header row for the table
+    header_row = [1, "Model / Color"]
+    colors = list(set(color for _, color in data_dict.values()))
+    header_row.extend(colors)
+    table_data = [header_row]
 
-    for sku, (device_name, color) in data.items():
-        case_type = " ".join(device_name.split()[-2:])
-        device_type = device_name.split()[0]
-        file_title = f"{device_type} | {case_type}"
-        page_title = f"{case_type}s for {device_type}"
-        if file_title not in devices:
-            devices[file_title] = {}
-        if device_name not in devices[file_title]:
-            devices[file_title][device_name] = []
-        devices[file_title][device_name].append((sku, color))
+    # Create a list of unique models
+    models = list(set(model for model, _ in data_dict.values()))
 
-    if not os.path.exists(folder_name):
-        os.makedirs(folder_name)
+    # Create rows for each model
+    for idx, model in enumerate(models, start=2):
+        row_data = [idx, model]
+        for color in colors:
+            for key, value in data_dict.items():
+                if value == [model, color]:
+                    row_data.append(key)
+        table_data.append(row_data)
 
-    for file_title, device_data in devices.items():
-        combined_data = []
+    # Print the table
+    print("table = [")
+    for row in table_data:
+        print(row, end="")
+        print(',')
+    print("]")
 
-        for device_name, color_data in device_data.items():
-            color_to_sku = {color: "" for _, color in color_data}
-            for sku, color in color_data:
-                color_to_sku[color] = sku
-
-            combined_data.append(
-                {'device': device_name, 'color_to_sku': color_to_sku})
-
-        case_type = " ".join(device_name.split()[-2:])
-        page_title = f"{case_type}s for {device_name.split()[0]}"
-        md_file_name = create_markdown_file(
-            folder_name, file_title, page_title, combined_data)
-        normalized_name = normalize_device_name(file_title)
-        metadata[normalized_name] = file_title
-
-    with open(f"{folder_name}/_meta.json", "w") as meta_file:
-        json.dump(metadata, meta_file, indent=4)
+    return
 
 
-generate_markdown_files(Autumn_2011, "Late_201")
-'''
-generate_markdown_files(Spring_2011, "Early_2011")
+def generate_markdown_file(data, title):
+    data_no_id = [row[1:] for row in data]
+
+    markdown_content = f"# {title}\n\n"
+    markdown_content += "## In the Wild\n\n"
+    markdown_content += "## Pricing / Availability\n\n"
+    markdown_content += "## Compatibility\n\n"
+    markdown_content += "## Part numbers\n\n"
+
+    # Generate the Markdown table
+    table_content = "|" + "|".join(data_no_id[0]) + "|\n"
+    table_content += "|" + "|".join(":--" for _ in data_no_id[0]) + "|\n"
+    for row in data_no_id[1:]:
+        table_content += "|" + "|".join(row) + "|\n"
+
+    markdown_content += table_content
+
+    with open(f"{title.lower().replace(' ', '_')}.md", "w", encoding="utf-8") as file:
+        file.write(markdown_content)
 
 
-
-
-generate_markdown_files(year_2013, "Late_2013")
-generate_markdown_files(Autumn_2014, "Late_2014")
-
-generate_markdown_files(Autumn_2014, "Late_2014")
-generate_markdown_files(Autumn_2015, "Late_2015")
-
-generate_markdown_files(early_2016, "Early_2016")
-generate_markdown_files(Autumn_2016, "Late_2016")
-generate_markdown_files(early_2017, "Early_2017")
-generate_markdown_files(Autumn_2017, "Late_2017")
-generate_markdown_files(spring_2018, "Early_2018")
-
-generate_markdown_files(wwdc_2017, "Summer_2017")
-generate_markdown_files(wwdc_2018, "Summer_2018")
-'''
+generate_markdown_file(ipad_2013_case, "iPad Air and iPad Mini")
