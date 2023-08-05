@@ -1,3 +1,71 @@
+def sort_table_columns_by_numbers(table):
+    # Find the indices of the columns based on the numeric values in the first non-header row
+    first_row = table[1][1:]  # Skip the first column ('Model / Color')
+    numeric_indices = sorted(range(len(first_row)), key=lambda i: int(''.join(filter(str.isdigit, first_row[i]))))
+
+    # Rearrange the table columns based on the numeric indices
+    sorted_table = []
+    for row in table:
+        sorted_row = [row[0]] + [row[i + 1] for i in numeric_indices]
+        sorted_table.append(sorted_row)
+
+    return sorted_table
+
+
+def create_table_from_dict(data_dict):
+    # Create the header row for the table
+    header_row = [1, "Model / Color"]
+    colors = list(set(color for _, color in data_dict.values()))
+    header_row.extend(colors)
+    table_data = [header_row]
+
+    # Create a list of unique models
+    models = list(set(model for model, _ in data_dict.values()))
+
+    # Create rows for each model
+    for idx, model in enumerate(models, start=2):
+        row_data = [idx, model]
+        for color in colors:
+            for key, value in data_dict.items():
+                if value == [model, color]:
+                    row_data.append(key)
+        table_data.append(row_data)
+
+    table_data = [row[1:] for row in table_data]
+    # Print the table
+    print("table = [")
+    for row in table_data:
+        print(row, end="")
+        print(',')
+    print("]")
+
+    return
+
+
+def generate_markdown_file(tables, title, filename):
+    markdown_content = f"# {title}\n\n"
+
+    markdown_content += "## In the Wild\n\n"
+    markdown_content += "## Pricing / Availability\n\n"
+    markdown_content += "## Compatibility\n\n"
+    markdown_content += "## Part numbers\n\n"
+
+    for table in tables:
+        table_data = sort_table_columns_by_numbers(table)
+
+        # Generate the Markdown table
+        table_content = "|" + "|".join(table_data[0]) + "|\n"
+        table_content += "|" + "|".join(":--" for _ in table_data[0]) + "|\n"
+        for row in table_data[1:]:
+            table_content += "|" + "|".join(row) + "|\n"
+
+        markdown_content += table_content
+        markdown_content += "\n\n"
+
+    with open(filename, "w", encoding="utf-8") as file:
+        file.write(markdown_content)
+
+
 year_2004 = {
     "M9720G/B": "iPod Socks 6 pack"
 }
@@ -65,87 +133,60 @@ Autumn_2012 = {
     "MD974LL/A": ["iPod Touch Loop", "Blue"]
 }
 
-ipad_2013_cover = [
-    [1, 'Model / Color', 'Blue', 'Green', 'Pink', 'Red', 'Yellow', 'Black'],
-    [2, 'iPad Air Smart Cover', 'MF054LL/A', 'MF056LL/A', 'MF055LL/A', 'MF058LL/A', 'MF057LL/A', 'MF053LL/A'],
-    [3, 'iPad Mini Smart Cover', 'MF060LL/A', 'MF062LL/A', 'MF061LL/A', 'MF394LL/A', 'MF063LL/A', 'MF059LL/A'],
+ipad2013_cover = [
+    ['Model / Color', 'Blue', 'Green', 'Pink', 'Red', 'Yellow', 'Black'],
+    ['iPad Air Smart Cover', 'MF054LL/A', 'MF056LL/A', 'MF055LL/A', 'MF058LL/A', 'MF057LL/A', 'MF053LL/A'],
+    ['iPad Mini Smart Cover', 'MF060LL/A', 'MF062LL/A', 'MF061LL/A', 'MF394LL/A', 'MF063LL/A', 'MF059LL/A'],
 ]
 
-ipad_2013_case = [
-    [1, 'Model / Color', 'Brown', 'Blue', 'Red', 'Beige', 'Yellow', 'Black'],
-    [2, 'iPad Air Smart Case', 'MF047LL/A', 'MF050LL/A', 'MF052LL/A', 'MF048LL/A', 'MF049LL/A', 'MF051LL/A'],
-    [3, 'iPad Mini Smart Case', 'ME706LL/A', 'ME709LL/A', 'ME711LL/A', 'ME707LL/A', 'ME708LL/A', 'ME710LL/A'],
+ipad2013_case = [
+    ['Model / Color', 'Brown', 'Blue', 'Red', 'Beige', 'Yellow', 'Black'],
+    ['iPad Air Smart Case', 'MF047LL/A', 'MF050LL/A', 'MF052LL/A', 'MF048LL/A', 'MF049LL/A', 'MF051LL/A'],
+    ['iPad Mini Smart Case', 'ME706LL/A', 'ME709LL/A', 'ME711LL/A', 'ME707LL/A', 'ME708LL/A', 'ME710LL/A'],
 ]
 
-iphone_5c = [
-    [1, 'Model / Color', 'White', 'Black', 'Yellow', 'Pink', 'Green', 'Blue'],
-    [2, 'iPhone 5c Case', 'MF039ZM/A', 'MF040ZM/A', 'MF038ZM/A', 'MF036ZM/A', 'MF037ZM/A', 'MF035ZM/A'],
+iphone5c = [
+    ['Model / Color', 'White', 'Black', 'Yellow', 'Pink', 'Green', 'Blue'],
+    ['iPhone 5c Case', 'MF039ZM/A', 'MF040ZM/A', 'MF038ZM/A', 'MF036ZM/A', 'MF037ZM/A', 'MF035ZM/A'],
 ]
 
-iphone_5s = [
-    [1, 'Model / Color', 'Red', 'Black', 'Yellow', 'Beige', 'Blue', 'Brown'],
-    [2, 'iPhone 5s Case', 'MF046LL/A', 'MF045LL/A', 'MF043LL/A', 'MF042LL/A', 'MF044LL/A', 'MF041LL/A']
+iphone5s = [
+    ['Model / Color', 'Red', 'Black', 'Yellow', 'Beige', 'Blue', 'Brown'],
+    ['iPhone 5s Case', 'MF046LL/A', 'MF045LL/A', 'MF043LL/A', 'MF042LL/A', 'MF044LL/A', 'MF041LL/A']
 ]
+
+tables = [ipad2013_case, ipad2013_cover]
+generate_markdown_file(tables, "iPad Air & mini 2", "ipad.md")
+generate_markdown_file([iphone5s], "iPhone 5s Leather Case", "5s.md")
+generate_markdown_file([iphone5c], "iPhone 5c Silicone Case", "5c.md")
 
 year_2014 = {
     "MF631ZM/A": ["iPod Touch Loop", "Space Gray"]
 }
 
-Autumn_2014 = {
-    "MGQF2ZM/A": ["iPhone 6 Silicone Case", "Black"],
-    "MGQG2ZM/A": ["iPhone 6 Silicone Case", "White"],
-    "MGQH2ZM/A": ["iPhone 6 Silicone Case", "(PRODUCT)RED"],
-    "MGQJ2ZM/A": ["iPhone 6 Silicone Case", "Blue"],
-    "MGXT2ZM/A": ["iPhone 6 Silicone Case", "Pink"],
-    "MGXU2ZM/A": ["iPhone 6 Silicone Case", "Green"],
+iphone6_silicone = [
+    ['Model / Color', 'Black', 'Green', 'White', '(PRODUCT)RED', 'Blue', 'Pink'],
+    ['iPhone 6 Silicone Case', 'MGQF2ZM/A', 'MGXU2ZM/A', 'MGQG2ZM/A', 'MGQH2ZM/A', 'MGQJ2ZM/A', 'MGXT2ZM/A'],
+    ['iPhone 6 Plus Silicone Case', 'MGR92ZM/A', 'MGXX2ZM/A', 'MGRF2ZM/A', 'MGRG2ZM/A', 'MGRH2ZM/A', 'MGXW2ZM/A'],
 
-    "MGR92ZM/A": ["iPhone 6 Plus Silicone Case", "Black"],
-    "MGRF2ZM/A": ["iPhone 6 Plus Silicone Case", "White"],
-    "MGRG2ZM/A": ["iPhone 6 Plus Silicone Case", "(PRODUCT)RED"],
-    "MGRH2ZM/A": ["iPhone 6 Plus Silicone Case", "Blue"],
-    "MGXW2ZM/A": ["iPhone 6 Plus Silicone Case", "Pink"],
-    "MGXX2ZM/A": ["iPhone 6 Plus Silicone Case", "Green"],
+]
+iphone6_leather = [
+    ['Model / Color', 'Black', 'Olive Brown', 'Soft Pink', '(PRODUCT)RED', 'Midnight Blue'],
+    ['iPhone 6 Leather Case', 'MGR62ZM/A', 'MGR22ZM/A', 'MGR52ZM/A', 'MGR82ZM/A', 'MGR32ZM/A'],
+    ['iPhone 6 Plus Leather Case', 'MGQX2ZM/A', 'MGQR2ZM/A', 'MGQW2ZM/A', 'MGQY2ZM/A', 'MGQV2ZM/A'],
 
-    "MGR22ZM/A": ["iPhone 6 Leather Case", "Olive Brown"],
-    "MGR32ZM/A": ["iPhone 6 Leather Case", "Midnight Blue"],
-    "MGR52ZM/A": ["iPhone 6 Leather Case", "Soft Pink"],
-    "MGR62ZM/A": ["iPhone 6 Leather Case", "Black"],
-    "MGR82ZM/A": ["iPhone 6 Leather Case", "(PRODUCT)RED"],
-
-    "MGQR2ZM/A": ["iPhone 6 Plus Leather Case", "Olive Brown"],
-    "MGQV2ZM/A": ["iPhone 6 Plus Leather Case", "Midnight Blue"],
-    "MGQW2ZM/A": ["iPhone 6 Plus Leather Case", "Soft Pink"],
-    "MGQX2ZM/A": ["iPhone 6 Plus Leather Case", "Black"],
-    "MGQY2ZM/A": ["iPhone 6 Plus Leather Case", "(PRODUCT)RED"],
-
-    "MGTM2ZM/A": ["iPad Air Smart Cover", "Black"],  # air 1 & 2
-    "MGTN2ZM/A": ["iPad Air Smart Cover", "White"],
-    "MGTP2ZM/A": ["iPad Air Smart Cover", "(PRODUCT)RED"],
-    "MGTQ2ZM/A": ["iPad Air Smart Cover", "Blue"],
-    "MGXK2ZM/A": ["iPad Air Smart Cover", "Pink"],
-    "MGXL2ZM/A": ["iPad Air Smart Cover", "Green"],
-    "MGXN2ZM/A": ["iPad Air Smart Cover", "Yellow"],
-
-    "MGTR2ZM/A": ["iPad Air 2 Smart Case", "Olive Brown"],
-    "MGTT2ZM/A": ["iPad Air 2 Smart Case", "Midnight Blue"],
-    "MGTU2ZM/A": ["iPad Air 2 Smart Case", "Soft Pink"],
-    "MGTV2ZM/A": ["iPad Air 2 Smart Case", "Black"],
-    "MGTW2ZM/A": ["iPad Air 2 Smart Case", "(PRODUCT)RED"],
-
-    "MGMN2ZM/A": ["iPad mini Smart Case", "Olive Brown"],
-    "MGMW2ZM/A": ["iPad mini Smart Case", "Midnight Blue"],
-    "MGN32ZM/A": ["iPad mini Smart Case", "Soft Pink"],
-    "MGN62ZM/A": ["iPad mini Smart Case", "Black"],
-    "MGND2ZM/A": ["iPad mini Smart Case", "(PRODUCT)RED"],
-
-    "MGNC2ZM/A": ["iPad mini Smart Cover", "Black"],
-    "MGNK2ZM/A": ["iPad mini Smart Cover", "White"],
-    "MGNL2ZM/A": ["iPad mini Smart Cover", "(PRODUCT)RED"],
-    "MGNM2ZM/A": ["iPad mini Smart Cover", "Blue"],
-    "MGNN2ZM/A": ["iPad mini Smart Cover", "Pink"],
-    "MGNQ2ZM/A": ["iPad mini Smart Cover", "Green"],
-    "MGNT2ZM/A": ["iPad mini Smart Cover", "Yellow"]
-}
+]
+ipad2014_case = [
+    ['Model / Color', 'Black', 'Olive Brown', 'Soft Pink', '(PRODUCT)RED', 'Midnight Blue'],
+    ['iPad Air 2 Smart Case', 'MGTV2ZM/A', 'MGTR2ZM/A', 'MGTU2ZM/A', 'MGTW2ZM/A', 'MGTT2ZM/A'],
+    ['iPad mini Smart Case', 'MGN62ZM/A', 'MGMN2ZM/A', 'MGN32ZM/A', 'MGND2ZM/A', 'MGMW2ZM/A'],
+]
+ipad2014_cover = [
+    ['Model / Color', 'Black', 'Green', 'Yellow', 'White', '(PRODUCT)RED', 'Blue', 'Pink'],
+    ['iPad Air Smart Cover', 'MGTM2ZM/A', 'MGXL2ZM/A', 'MGXN2ZM/A', 'MGTN2ZM/A', 'MGTP2ZM/A', 'MGTQ2ZM/A', 'MGXK2ZM/A'],
+    ['iPad mini Smart Cover', 'MGNC2ZM/A', 'MGNQ2ZM/A', 'MGNT2ZM/A', 'MGNK2ZM/A', 'MGNL2ZM/A', 'MGNM2ZM/A',
+     'MGNN2ZM/A'],
+]
 
 Autumn_2015 = {
     "MKXX2ZM/A": ["iPhone 6s Leather Case", "(PRODUCT)RED"],
@@ -547,86 +588,4 @@ late_2018 = {
     # + XR Clear Case
 }
 
-
 # https://www.macrumors.com/2019/03/20/spring-colors-cases-bands/
-
-
-def normalize_device_name(device_name):
-    return device_name.replace(" ", "_").replace("(", "").replace(")", "").replace("/", "_").replace("|", "_").lower()
-
-
-def custom_sort_key(color):
-    return color.replace("(PRODUCT)RED", "Product Red")
-
-
-def create_markdown_file(folder_name, file_title, page_title, devices_data):
-    normalized_name = normalize_device_name(file_title)
-    file_name = f"{folder_name}/{normalized_name}.md"
-
-    with open(file_name, "w") as file:
-        file.write(f"# {page_title}\n\n")
-
-        for device_data in devices_data:
-            device_name = device_data['device']
-            file.write(f"### {device_name}\n\n")
-            color_to_sku = device_data['color_to_sku']
-            sorted_colors = sorted(color_to_sku.keys(), key=custom_sort_key)
-            file.write("| " + " | ".join(sorted_colors) + " |\n")
-            file.write("|" + "|".join(["-----"] * len(sorted_colors)) + "|\n")
-            file.write("| " + " | ".join([color_to_sku[color]
-                                          for color in sorted_colors]) + " |\n\n")
-
-    return file_name
-
-
-def create_table_from_dict(data_dict):
-    # Create the header row for the table
-    header_row = [1, "Model / Color"]
-    colors = list(set(color for _, color in data_dict.values()))
-    header_row.extend(colors)
-    table_data = [header_row]
-
-    # Create a list of unique models
-    models = list(set(model for model, _ in data_dict.values()))
-
-    # Create rows for each model
-    for idx, model in enumerate(models, start=2):
-        row_data = [idx, model]
-        for color in colors:
-            for key, value in data_dict.items():
-                if value == [model, color]:
-                    row_data.append(key)
-        table_data.append(row_data)
-
-    # Print the table
-    print("table = [")
-    for row in table_data:
-        print(row, end="")
-        print(',')
-    print("]")
-
-    return
-
-
-def generate_markdown_file(data, title):
-    data_no_id = [row[1:] for row in data]
-
-    markdown_content = f"# {title}\n\n"
-    markdown_content += "## In the Wild\n\n"
-    markdown_content += "## Pricing / Availability\n\n"
-    markdown_content += "## Compatibility\n\n"
-    markdown_content += "## Part numbers\n\n"
-
-    # Generate the Markdown table
-    table_content = "|" + "|".join(data_no_id[0]) + "|\n"
-    table_content += "|" + "|".join(":--" for _ in data_no_id[0]) + "|\n"
-    for row in data_no_id[1:]:
-        table_content += "|" + "|".join(row) + "|\n"
-
-    markdown_content += table_content
-
-    with open(f"{title.lower().replace(' ', '_')}.md", "w", encoding="utf-8") as file:
-        file.write(markdown_content)
-
-
-generate_markdown_file(ipad_2013_case, "iPad Air and iPad Mini")

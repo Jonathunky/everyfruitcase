@@ -14,8 +14,8 @@ const config: DocsThemeConfig = {
       <span
         style={{
           fontFamily: 'Helvetica Neue',
-          fontWeight: 'bold',
-          fontSize: '24px',
+          //fontWeight: 'bold',
+          fontSize: '26px',
           letterSpacing: '0px',
           //color: '#333'
         }}
@@ -42,18 +42,19 @@ const config: DocsThemeConfig = {
   primaryHue: 320,
   useNextSeoProps() {
     const { asPath } = useRouter()
-    if (asPath !== '/') {
-      return {
-        titleTemplate: '%s – EveryCase'
-      }
-    } else {
-      return {
-        titleTemplate: 'EveryCase'
-      }
-    }
+    const titleTemplate = asPath !== '/' ? '%s – EveryCase' : 'EveryCase';
+    return {
+      titleTemplate
+    };
   },
   toc: {
     float: true
+  },
+  feedback: {
+    content: "Have something to add?"
+  },
+  editLink: {
+    component: undefined
   },
   head: function Head() {
     const { title } = useConfig()

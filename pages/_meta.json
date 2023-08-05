@@ -1,7 +1,8 @@
 {
   "*": {
     "theme": {
-      "pagination": false
+      "pagination": false,
+      "toc": true
     }
   },
   "index": {
@@ -11,8 +12,8 @@
       "typesetting": "article",
       "footer": false,
       "sidebar": true,
-      "toc": true,
-      "pagination": false,
+      "toc": false,
+      "pagination": true,
       "layout": "full"
     }
   },
@@ -34,35 +35,25 @@
     "title": "Latest and greatest ⤵",
     "type": "separator"
   },
-  "Early_2023": "Spring 2023",
-  "Late_2022": "Late 2022",
-  "Early_2022": "Spring 2022",
-  "Late_2021": "Late 2021",
-  "Early_2021": "Spring 2021",
-  "Late_2020": "Late 2020",
+  "Late_2022": "2022",
+  "Late_2021": "2021",
+  "Late_2020": "2020",
   "sep2": {
     "title": "Pre-MagSafe era ⤵",
     "type": "separator"
   },
-  "Early_2020": "Spring 2020",
-  "Late_2019": "Late 2019",
-  "Early_2019": "Spring 2019",
-  "Late_2018": "Late 2018",
-  "Summer_2018": "Summer 2018",
-  "Early_2018": "Spring 2018",
-  "Late_2017": "Late 2017",
+  "Late_2019": "2019",
+  "Late_2018": "2018",
+  "Late_2017": "2017",
   "sep3": {
     "title": "Pre-notch era ⤵",
     "type": "separator"
   },
-  "Summer_2017": "Summer 2017",
-  "Early_2017": "Spring 2017",
-  "Late_2016": "Late 2016",
-  "Early_2016": "Spring 2016",
-  "Late_2015": "Late 2015",
+  "Late_2016": "2016",
+  "Late_2015": "2015",
   "Late_2014": "2014",
   "Late_2013": "2013",
   "2013_before": {
-    "title": "Before 2013"
+    "title": "Before"
   }
 }
