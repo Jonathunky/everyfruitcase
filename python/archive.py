@@ -135,6 +135,28 @@ wwdc_2017 = {
     "MPQL2ZM/A": ["Apple Pencil Case", "Taupe"],
 }
 
+ipad105red = {
+
+    "MR5L2ZM/A": ["iPad Pro 10.5″ Leather Sleeve", "(PRODUCT)RED"],
+    "MR5G2ZM/A": ["iPad Pro 10.5″ Leather Smart Cover", "(PRODUCT)RED"],
+    "MR592ZM/A": ["iPad Pro 10.5″ Smart Cover", "(PRODUCT)RED"],
+
+}
+
+wwdc_2018 = {
+    "MRR72ZM/A": ["iPhone 8 / 7 Silicone Case", "Marine Green"],
+    "MRR52ZM/A": ["iPhone 8 / 7 Silicone Case", "Peach"],
+    "MRR62ZM/A": ["iPhone 8 / 7 Silicone Case", "Sky Blue"],
+
+    "MRRA2ZM/A": ["iPhone 8 Plus / 7 Plus Silicone Case", "Marine Green"],
+    "MRR82ZM/A": ["iPhone 8 Plus / 7 Plus Silicone Case", "Peach"],
+    "MRR92ZM/A": ["iPhone 8 Plus / 7 Plus Silicone Case", "Sky Blue"],
+
+    "MRRE2ZM/A": ["iPhone X Silicone Case", "Marine Green"],
+    "MRRC2ZM/A": ["iPhone X Silicone Case", "Peach"],
+    "MRRD2ZM/A": ["iPhone X Silicone Case", "Sky Blue"],
+}
+
 ipad105 = {
 
     "MQ082ZM/A": ["iPad Pro 10.5″ Smart Cover", "Charcoal Gray"],
@@ -360,6 +382,89 @@ ipadleather = {
     "MPV62ZM/A": ["iPad Pro 12.9″ Leather Smart Cover", "Black"],
     "MPV22ZM/A": ["iPad Pro 12.9″ Leather Smart Cover", "Midnight Blue"],
     "MPV12ZM/A": ["iPad Pro 12.9″ Leather Smart Cover", "Saddle Brown"], }
+
+rest_2017 = {
+
+    # TODO there are more!!
+    "MQRV2ZM/A": ["iPhone X Leather Folio", "Black"],
+    # Cosmos Blue, Taupe, Black, and Berry
+
+    "MQH12ZM/A": ["iPhone 8 Plus / 7 Plus Silicone Case", "(PRODUCT)RED"],
+    "MQGW2ZM/A": ["iPhone 8 Plus / 7 Plus Silicone Case", "Black"],
+    "MQGY2ZM/A": ["iPhone 8 Plus / 7 Plus Silicone Case", "Midnight Blue"],
+    "MQH22ZM/A": ["iPhone 8 Plus / 7 Plus Silicone Case", "Pink Sand"],
+    "MQGX2ZM/A": ["iPhone 8 Plus / 7 Plus Silicone Case", "White"],
+
+    "MQGP2ZM/A": ["iPhone 8 / 7 Silicone Case", "(PRODUCT)RED"],
+    "MQGK2ZM/A": ["iPhone 8 / 7 Silicone Case", "Black"],
+    "MQGM2ZM/A": ["iPhone 8 / 7 Silicone Case", "Midnight Blue"],
+    "MQGQ2ZM/A": ["iPhone 8 / 7 Silicone Case", "Pink Sand"],
+    "MQGL2ZM/A": ["iPhone 8 / 7 Silicone Case", "White"],
+
+    "MQT52ZM/A": ["iPhone X Silicone Case", "(PRODUCT)RED"],
+    "MQT12ZM/A": ["iPhone X Silicone Case", "Black"],
+    "MQT32ZM/A": ["iPhone X Silicone Case", "Midnight Blue"],
+    "MQT62ZM/A": ["iPhone X Silicone Case", "Pink Sand"],
+    "MQT22ZM/A": ["iPhone X Silicone Case", "White"],
+    # 9 colors in total!
+    # }
+}
+
+leather_2017 = {
+    "MQHA2ZM/A": ["iPhone 8 / 7 Leather Case", "(PRODUCT)RED"],
+    "MQH92ZM/A": ["iPhone 8 / 7 Leather Case", "Black"],
+    "MQH82ZM/A": ["iPhone 8 / 7 Leather Case", "Midnight Blue"],
+    "MQH72ZM/A": ["iPhone 8 / 7 Leather Case", "Saddle Brown"],
+    "MQH62ZM/A": ["iPhone 8 / 7 Leather Case", "Taupe"],
+    "MQHF2ZM/A": ["iPhone 8 / 7 Leather Case", "Cosmos Blue"],
+
+    # something else maybe?
+
+    "MQHN2ZM/A": ["iPhone 8 Plus / 7 Plus Leather Case", "(PRODUCT)RED"],
+    "MQHM2ZM/A": ["iPhone 8 Plus / 7 Plus Leather Case", "Black"],
+    "MQHL2ZM/A": ["iPhone 8 Plus / 7 Plus Leather Case", "Midnight Blue"],
+    "MQHK2ZM/A": ["iPhone 8 Plus / 7 Plus Leather Case", "Saddle Brown"],
+    "MQHJ2ZM/A": ["iPhone 8 Plus / 7 Plus Leather Case", "Taupe"],
+    "MQHR2FE/A": ["iPhone 8 Plus / 7 Plus Leather Case", "Cosmos Blue"],
+
+    "MQTE2ZM/A": ["iPhone X Leather Case", "(PRODUCT)RED"],
+    "MQTD2ZM/A": ["iPhone X Leather Case", "Black"],
+    "MQTC2ZM/A": ["iPhone X Leather Case", "Midnight Blue"],
+    "MQTA2ZM/A": ["iPhone X Leather Case", "Saddle Brown"],
+    "MQT92ZM/A": ["iPhone X Leather Case", "Taupe"],
+    "MQTH2ZM/A": ["iPhone X Leather Case", "Cosmos Blue"],
+}
+
+late_2017 = {
+    "MQHX2AM/A": "iPhone Lightning Dock – Gold"  # to match gold iPhone 8
+}
+
+spring_2018 = {
+
+    "MRGK2ZM/A": ["iPhone X Leather Case", "Bright Orange"],
+    "MRGG2ZM/A": ["iPhone X Leather Case", "Electric Blue"],
+    "MRGH2ZM/A": ["iPhone X Leather Case", "Soft Pink"],
+    "MRGJ2ZM/A": ["iPhone X Leather Case", "Spring Yellow"],
+    "MRG82ZM/A": ["iPhone 8 / 7 Leather Case", "Bright Orange"],
+    "MRG52ZM/A": ["iPhone 8 / 7 Leather Case", "Electric Blue"],
+    "MRG62ZM/A": ["iPhone 8 / 7 Leather Case", "Soft Pink"],
+    "MRG72ZM/A": ["iPhone 8 / 7 Leather Case", "Spring Yellow"],
+    "MRGD2ZM/A": ["iPhone 8 Plus / 7 Plus Leather Case", "Bright Orange"],
+    "MRG92ZM/A": ["iPhone 8 Plus / 7 Plus Leather Case", "Electric Blue"],
+    "MRGA2ZM/A": ["iPhone 8 Plus / 7 Plus Leather Case", "Soft Pink"],
+    "MRGC2ZM/A": ["iPhone 8 Plus / 7 Plus Leather Case", "Spring Yellow"], }
+
+sili = {
+
+    "MRG22ZM/A": ["iPhone X Silicone Case", "Denim Blue"],
+    "MRG32ZM/A": ["iPhone X Silicone Case", "Lemonade"],
+    "MRG12ZM/A": ["iPhone X Silicone Case", "Red Raspberry"],
+    "MRFR2ZM/A": ["iPhone 8 / 7 Silicone Case", "Denim Blue"],
+    "MRFU2ZM/A": ["iPhone 8 / 7 Silicone Case", "Lemonade"],
+    "MRFQ2ZM/A": ["iPhone 8 / 7 Silicone Case", "Red Raspberry"],
+    "MRFX2ZM/A": ["iPhone 8 Plus / 7 Plus Silicone Case", "Denim Blue"],
+    "MRFY2ZM/A": ["iPhone 8 Plus / 7 Plus Silicone Case", "Lemonade"],
+    "MRFW2ZM/A": ["iPhone 8 Plus / 7 Plus Silicone Case", "Red Raspberry"], }
 
 summeriphone = {
     "MQ5F2ZM/A": ["iPhone 7 Leather Case", "Geranium"],
