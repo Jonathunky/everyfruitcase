@@ -69,7 +69,7 @@ const config: DocsThemeConfig = {
         <meta name="robots" content="noindex" />
         <meta
           name="og:title"
-          content={title ? title + ' – EveryCase' : 'EveryCase'}
+          content={title ? title : 'EveryCase'}
         />
         <link rel="manifest" href="/manifest.json" />
         <meta name="application-name" content="next PWA demo" />
