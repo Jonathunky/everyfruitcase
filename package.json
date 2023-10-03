@@ -1,8 +1,8 @@
 {
   "private": true,
   "name": "everycase",
-  "version": "0.2.6",
-  "description": "A website with every case accessory made by Apple, Inc.",
+  "version": "0.5",
+  "description": "A website describing every case accessory made by Apple, Inc.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/JonathanX64/everyfruitcase"
   },
-  "author": "Jonathunky <admin@applecase.wiki>",
+  "author": "Jonathunky <jonathan@applecase.wiki>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JonathanX64/everyfruitcase/issues"

@@ -36,7 +36,6 @@
   "iphone14": "iPhone 14, Plus, Pro, Max",
   "iphone13": "iPhone 13, mini, Pro, Max",
   "iphone12": "iPhone 12, mini, Pro, Max",
-  "magsafe": "MagSafe accessories",
   "sep6": {
     "title": "Latest iPad ⤵",
     "type": "separator"
@@ -49,9 +48,10 @@
     "title": "Other stuff ⤵",
     "type": "separator"
   },
-  "macbook": "MacBook Leather Sleeve",
-  "pencil": "Apple Pencil",
   "airtag": "AirTag",
+  "magsafe": "MagSafe Wallet",
+  "pencil": "Apple Pencil",
+  "macbook": "MacBook Leather Sleeve",
   "sep2": {
     "title": "Pre-MagSafe iPhone ⤵",
     "type": "separator"
