@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 # Under construction
 
 ## MagSafe Wallet / Late 2020
@@ -37,3 +35,5 @@ Find My compatible from now on!
 | Ink          | MPPW3ZM/A    |
 | Orange       | MPPY3ZM/A    |
 | Umber        | MPPX3ZM/A    |
+
+![Hello](/icon.png)

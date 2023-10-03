@@ -8,7 +8,7 @@ const nextConfig = {
     domains: ["applecase.wiki"],
     //imageSizes: [16, 32, 48, 64, 96, 128, 256, 384, 768],
     //disableStaticImages: true,
-    unoptimized: true,
+    unoptimized: false,
   },
 };
 
