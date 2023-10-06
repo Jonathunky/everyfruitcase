@@ -24,14 +24,17 @@ const baseConfig = {
   images: {
     domains: ["applecase.wiki"],
     unoptimized: false,
+    quality: 99,
+    formats: ["image/avif", "image/webp"],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384, 512, 1024, 1536, 2048],
   },
   swcMinify: true,
   reactStrictMode: true,
   typescript: {
-    ignoreBuildErrors: true,
+    ignoreBuildErrors: false,
   },
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: false,
   },
   redirects: () => [
     {
