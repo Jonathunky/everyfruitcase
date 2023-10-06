@@ -33,10 +33,10 @@
     "title": "By device: Latest iPhone ⤵",
     "type": "separator"
   },
-  "iphone15": "iPhone 15, Plus, Pro, Max",
-  "iphone14": "iPhone 14, Plus, Pro, Max",
-  "iphone13": "iPhone 13, mini, Pro, Max",
-  "iphone12": "iPhone 12, mini, Pro, Max",
+  "iphone_15": "iPhone 15, Plus, Pro, Max",
+  "iphone_14": "iPhone 14, Plus, Pro, Max",
+  "iphone_13": "iPhone 13, mini, Pro, Max",
+  "iphone_12": "iPhone 12, mini, Pro, Max",
   "sep6": {
     "title": "Latest iPad ⤵",
     "type": "separator"
@@ -50,24 +50,24 @@
     "type": "separator"
   },
   "airtag": "AirTag",
-  "magsafe": "MagSafe Wallet",
-  "pencil": "Apple Pencil",
+  "wallet": "MagSafe Wallet",
+  "pencil": "Apple Pencil & Case",
   "macbook": "MacBook Leather Sleeve",
   "sep2": {
     "title": "Pre-MagSafe iPhone ⤵",
     "type": "separator"
   },
-  "iphone11": "iPhone 11 Pro, Max",
-  "iphonexr": "iPhone XR, 11",
-  "iphonex": "iPhone X, XS, Max",
+  "iphone_11": "iPhone 11 Pro, Max",
+  "iphone_xr": "iPhone XR, 11",
+  "iphone_x": "iPhone X, XS, Max",
   "sep3": {
     "title": "Pre-notch iPhone ⤵",
     "type": "separator"
   },
-  "iphone7": "iPhone 7, 8, Plus & SE",
-  "iphone6": "iPhone 6, 6s, Plus",
-  "5s": "iPhone 5, 5s, SE",
-  "5c": "iPhone 5c",
+  "iphone_7": "iPhone 7, 8, Plus & SE",
+  "iphone_6": "iPhone 6, 6s, Plus",
+  "iphone_5s": "iPhone 5, 5s, SE",
+  "iphone_5c": "iPhone 5c",
   "sep4": {
     "title": "Pre-Liquid iPad ⤵",
     "type": "separator"
@@ -82,9 +82,8 @@
     "title": "Ancient History ⤵",
     "type": "separator"
   },
-  "ipad2": "iPad 2–4",
-  "iphone4": "iPhone 4 Bumpers",
+  "ipad_2": "iPad 2–4",
+  "iphone_4": "iPhone 4 Bumpers",
   "ipod_touch": "iPod Touch Loop",
-  "ipad1": "Original iPad Case",
-  "ipod_socks": "iPod Socks"
+  "ipad_1": "Original iPad Case"
 }
