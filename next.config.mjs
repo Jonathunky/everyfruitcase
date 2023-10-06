@@ -13,7 +13,6 @@ const withNextra = nextra({
       ],
     ],
   },
-  // Additional options based on the template
   latex: true,
   flexsearch: {
     codeblocks: false,

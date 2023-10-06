@@ -1,4 +1,4 @@
-img {
+image {
     max-width: 700px;
     height: auto;
     display: block;
@@ -7,6 +7,7 @@ img {
 
 .logo {
     margin-top: 0px;
+    margin-right: 8px;
 }
 
 .footnotes::before {
