@@ -9,7 +9,7 @@ const withNextra = nextra({
     remarkPlugins: [
       [
         remarkMdxDisableExplicitJsx,
-        //{ whiteList: ["table", "thead", "tbody", "tr", "th", "td", "img"] },
+        { whiteList: ["table", "thead", "tbody", "tr", "th", "td", "img"] },
       ],
     ],
   },
@@ -26,7 +26,7 @@ const baseConfig = {
     unoptimized: false,
     quality: 99,
     formats: ["image/avif", "image/webp"],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384, 512, 1024, 1536, 2048],
+    imageSizes: [512, 1024, 1536, 2048],
   },
   swcMinify: true,
   reactStrictMode: true,

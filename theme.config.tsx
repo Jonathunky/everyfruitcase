@@ -6,14 +6,10 @@ import { useRouter } from "next/router";
 
 const logo = (
   <>
-    <Image
-      src="/icon.png"
+    <img
+      src="/icon-512x512.png"
       alt="EveryCase Logo"
-      width={40}
-      height={40} // Adjust this according to the aspect ratio of your image
       className="logo"
-      //layout="fixed"
-      quality={100}
     />
     <span
       style={{
@@ -36,7 +32,7 @@ const config: DocsThemeConfig = {
     //link: 'https://discord.com',
   },
   logo,
-  docsRepositoryBase: "https://github.com/JonathanX64/everyfruitcase/tree/main/",
+  docsRepositoryBase: "https://github.com/Jonathunky/everyfruitcase/tree/main/",
   footer: {
     //text: "Yeah",
     component: undefined,
