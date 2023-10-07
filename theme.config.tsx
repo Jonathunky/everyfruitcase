@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import type { DocsThemeConfig } from "nextra-theme-docs";
 import { useConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
@@ -68,6 +67,10 @@ const config: DocsThemeConfig = {
   },
   head: function Head() {
     const { title } = useConfig();
+    const router = useRouter();
+
+    const baseURL = "https://applecase.wiki";
+    const currentURL = `${baseURL}${router.asPath}`;
 
     return (
       <>
@@ -82,7 +85,8 @@ const config: DocsThemeConfig = {
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title ? title : "EveryCase"} />
         <meta property="og:description" content="Library of Apple cases for iPhone, iPad, and Mac." />
-        <meta property="og:image" content="/icons/icon.png" />
+        <meta property="og:image" content="/icons/back.jpg" />
+        <meta property="og:url" content={currentURL} />
 
         {/* Apple Specific Tags */}
         <meta name="apple-mobile-web-app-title" content="EveryCase" />
