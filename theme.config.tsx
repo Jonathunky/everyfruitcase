@@ -5,14 +5,16 @@ import { useRouter } from "next/router";
 
 const logo = (
   <>
-    <img
-      src="/icons/icon-512x512.png"
-      alt="EveryCase Logo"
-      className="logo"
-    />
+    <picture>
+      <img
+        src="/icons/icon-512x512.png"
+        alt="EveryCase Logo"
+        className="logo"
+      />
+    </picture>
     <span
       style={{
-        fontFamily: '"Helvetica Neue", "Roboto", "Arimo", sans-serif',
+        fontFamily: '"Quicksand", "Helvetica Neue", "Roboto", "Arimo", sans-serif',
         fontSize: "26px",
         letterSpacing: "0px",
       }}

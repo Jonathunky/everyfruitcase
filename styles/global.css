@@ -12,6 +12,49 @@ img {
     width: 48px;
 }
 
+@font-face {
+    font-family: 'Tofino Variable';
+    src: url('/fonts/TofinoVariable.woff2') format('woff2-variations');
+
+    /* Axes Declarations */
+    font-weight: 100 900;
+    /* Weight axis ranges from 100 to 900 */
+    font-stretch: 50% 125%;
+    /* Width axis ranges from 50% (condensed) to 125% (expanded) */
+    font-style: oblique 0deg 1deg;
+    /* Italic axis is represented with oblique here, ranging from 0deg (no slant) to 1deg (full italic) */
+
+    font-display: swap;
+    /* Optional, but recommended for performance */
+}
+
+
+@font-face {
+    font-family: 'Tofino Text';
+    src: url('/fonts/TofinoTextVar.woff2') format('woff2-variations');
+    font-weight: 300 700;
+    font-style: oblique 0deg 1deg;
+    /* Italic axis is represented with oblique here, ranging from 0deg (no slant) to 1deg (full italic) */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('/fonts/Quicksand.woff2') format('woff2-variations');
+    font-weight: 300 700;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Tofino Variable', system-ui;
+    /* sans-serif; */
+    font-stretch: 100%;
+    /* Less than normal width */
+    font-weight: 300;
+    /* Regular weight as an example */
+    font-display: swap;
+}
+
 .footnotes::before {
     margin-top: 10rem;
     content: "\A\A__________________";
