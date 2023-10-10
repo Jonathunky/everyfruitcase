@@ -48,9 +48,9 @@ img {
 body {
     font-family: 'Tofino Variable', system-ui;
     /* sans-serif; */
-    font-stretch: 100%;
+    font-stretch: 101%;
     /* Less than normal width */
-    font-weight: 300;
+    font-weight: 320;
     /* Regular weight as an example */
     font-display: swap;
 }

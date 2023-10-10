@@ -17,6 +17,7 @@ const logo = (
         fontFamily: '"Quicksand", "Helvetica Neue", "Roboto", "Arimo", sans-serif',
         fontSize: "26px",
         letterSpacing: "0px",
+        fontWeight: 300
       }}
     >
       EveryCase
