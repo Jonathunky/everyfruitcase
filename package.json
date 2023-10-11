@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "everycase",
-  "version": "0.5.9",
+  "version": "0.6.0",
   "description": "A website describing every case accessory made by Apple, Inc.",
   "scripts": {
     "dev": "next dev",
@@ -11,17 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JonathanX64/everyfruitcase"
+    "url": "git+https://github.com/Jonathunky/everyfruitcase"
   },
   "author": "Jonathunky <jonathan@applecase.wiki>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JonathanX64/everyfruitcase/issues"
+    "url": "https://github.com/Jonathunky/everyfruitcase/issues"
   },
   "homepage": "https://applecase.wiki",
   "dependencies": {
     "@vercel/analytics": "^1.1.0",
     "next": "~13.5.4",
+    "next-fonts": "^1.5.1",
     "next-pwa": "^5.6.0",
     "nextra": "^2.13.2",
     "nextra-theme-docs": "^2.13.2",
