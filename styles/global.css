@@ -5,6 +5,13 @@ img {
     max-width: 1000px;
 }
 
+table img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+
+
 .logo {
     margin-top: 0px;
     margin-right: 4px;
