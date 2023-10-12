@@ -2,8 +2,8 @@ import os
 import requests
 from PIL import Image
 
-BASE_URL_PNG = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/{code}?wid=4500&hei=4500&fmt=png"
-BASE_URL_JPG = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/{code}?wid=1000&hei=1000&fmt=jpg&qlt=95"
+BASE_URL_PNG = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/{code}?wid=4608&hei=4608&fmt=png"
+BASE_URL_JPG = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/{code}?wid=1024&hei=1024&fmt=jpg&qlt=95"
 x_pixels_to_crop = 100  # Number of pixels to crop from the left and right
 
 

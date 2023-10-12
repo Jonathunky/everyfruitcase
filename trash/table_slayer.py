@@ -3,17 +3,17 @@ import re
 
 
 def generate_sku_file_content(
-    header, first_col, cell_content, file_name_without_extension
+    header, head, first_col, cell_content, file_name_without_extension
 ):
     match = re.search(r"iPhone (\d+)", header)
     if match:
         iphone_number = int(match.group(1))
         if iphone_number >= 12:
-            new_header = f"# {header} with MagSafe - {first_col}\n\n"
+            new_header = f"# {header} {head} with MagSafe - {first_col}\n\n"
         else:
-            new_header = f"# {header} - {first_col}\n\n"
+            new_header = f"# {header} {head} - {first_col}\n\n"
     else:
-        new_header = f"# {header} - {first_col}\n\n"
+        new_header = f"# {header} {head} - {first_col}\n\n"
 
     return (
         f"{new_header}"
@@ -26,11 +26,21 @@ def generate_sku_file_content(
     )
 
 
+KEYWORDS = ["iPhone", "iPad", "AirTag", "Apple Pencil", "MacBook"]
+
+
 def generate_tab_or_table(
     headers, rows, generate_everycase, file_name_without_extension
 ):
     table = []
-    table.append(f"| {headers[0]} | {headers[1]} | Image |")
+
+    if any(keyword in headers[0].strip() for keyword in KEYWORDS):
+        table.append(
+            f"| {headers[1]} | {headers[0]} | Image |"
+        )  # "for iPhone..." could be done here
+    else:
+        table.append(f"| {headers[0]} | {headers[1]} | Image |")
+
     table.append("| --- | --- | --- |")
 
     for row in rows:
@@ -42,9 +52,23 @@ def generate_tab_or_table(
 
         if generate_everycase:
             with open(f"pages/everycase/{cell_content[:5]}.md", "w") as sku_file:
-                sku_file_content = generate_sku_file_content(
-                    headers[1], first_col, cell_content, file_name_without_extension
-                )
+                if any(keyword in headers[0].strip() for keyword in KEYWORDS):
+                    sku_file_content = generate_sku_file_content(
+                        headers[0],
+                        headers[1],
+                        first_col,
+                        cell_content,
+                        file_name_without_extension,
+                    )
+                else:
+                    sku_file_content = generate_sku_file_content(
+                        headers[1],
+                        headers[0],
+                        first_col,
+                        cell_content,
+                        file_name_without_extension,
+                    )
+
                 sku_file.write(sku_file_content)
 
     return table
@@ -55,8 +79,12 @@ def convert_table_to_tabs(
 ):
     lines = table_content.strip().split("\n")
 
+    headers = [h.strip() for h in lines[0].split("|")[1:-1]]
+
+    rows = [[cell.strip() for cell in row.split("|")[1:-1]] for row in lines[2:]]
+
     # If cell 1:1 contains the word "Item", return the table directly
-    if "Item" in lines[0]:
+    if "Item" in headers[0]:
         return table_content
 
     headers = [h.strip() for h in lines[0].split("|")[1:-1]]
@@ -126,15 +154,6 @@ def extract_tables_from_file(filename):
     return tables
 
 
-def convert_and_print_tables(filename):
-    tables = extract_tables_from_file(filename)
-    for i, table in enumerate(tables, start=1):
-        converted_table = convert_table_to_tabs(table)
-        print(f"Converted Table {i}:\n")
-        print(converted_table)
-        print("=" * 40)
-
-
 def process_directory(directory_path, generate_mdx=True, generate_everycase=True):
     for root, dirs, files in os.walk(directory_path):
         for file in files:
@@ -154,6 +173,7 @@ def convert_and_save_to_mdx(
         content = f.read()
 
     tables = extract_tables_from_file(input_filename)
+
     for table in tables:
         converted_table = convert_table_to_tabs(
             table, file_name_without_extension, generate_everycase

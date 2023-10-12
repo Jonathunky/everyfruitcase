@@ -4,7 +4,7 @@ from PIL import Image
 
 def resize_image(input_path, output_path):
     img = Image.open(input_path)
-    img = img.resize((1000, 1000))
+    img = img.resize((512, 512))
     img.save(output_path, "PNG")
 
 
