@@ -1,9 +1,9 @@
-# iPhone 14 Pro Max Silicone Case - Sunglow
+# iPhone 14 Pro Max Silicone Case with MagSafe - Sunglow
 
 [Return to previous page](/iphone_14)
 
-[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is//MPU03?wid=4500&hei=4500&fmt=png)
+[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MPU03?wid=4500&hei=4500&fmt=png)
 
-# ![Sunglow Case](/everyphone/MPU03.png)
+<div style="width: 500px"><img src="/everyphone/MPU03.png" alt="Sunglow"></div>
 
 ## Under construction

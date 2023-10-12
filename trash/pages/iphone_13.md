@@ -4,8 +4,6 @@
 
 ### Late 2021
 
-![Image](/assets/2021-13-silicone.jpg)
-
 | Silicone Case | iPhone 13 | iPhone 13 mini | iPhone 13 Pro | iPhone 13 Pro Max |
 | ------------- | --------- | -------------- | ------------- | ----------------- |
 | Marigold      | MM243ZM/A | MM1U3ZM/A      | MM2D3ZM/A     | MM2M3ZM/A         |
@@ -17,8 +15,6 @@
 | Midnight      | MM2A3ZM/A | MM223ZM/A      | MM2K3ZM/A     | MM2U3ZM/A         |
 | (PRODUCT)RED  | MM2C3ZM/A | MM233ZM/A      | MM2L3ZM/A     | MM2V3ZM/A         |
 
-![Image](/assets/2021-13-leather.jpg)
-
 | Leather Case  | iPhone 13 | iPhone 13 mini | iPhone 13 Pro | iPhone 13 Pro Max |
 | ------------- | --------- | -------------- | ------------- | ----------------- |
 | Dark Cherry   | MM143ZM/A | MM0G3ZM/A      | MM1A3ZM/A     | MM1M3ZM/A         |
@@ -27,15 +23,11 @@
 | Sequoia Green | MM173ZM/A | MM0J3ZM/A      | MM1G3ZM/A     | MM1Q3ZM/A         |
 | Wisteria      | MM163ZM/A | MM0H3ZM/A      | MM1F3ZM/A     | MM1P3ZM/A         |
 
-![Image](/assets/2021-13-clear.jpg)
-
 |            | iPhone 13 | iPhone 13 mini | iPhone 13 Pro | iPhone 13 Pro Max |
 | ---------- | --------- | -------------- | ------------- | ----------------- |
 | Clear Case | MM2X3ZM/A | MM2W3ZM/A      | MM2Y3ZM/A     | MM313ZM/A         |
 
 ### Spring 2022
-
-![Image](/assets/2022-13-silicone.jpg)
 
 | Silicone Case | iPhone 13 mini | iPhone 13 Pro | iPhone 13 | iPhone 13 Pro Max |
 | ------------- | -------------- | ------------- | --------- | ----------------- |

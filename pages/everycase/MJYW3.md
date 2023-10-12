@@ -1,9 +1,9 @@
-# iPhone 12 mini Silicone Case - Cantaloupe
+# iPhone 12 mini Silicone Case with MagSafe - Cantaloupe
 
 [Return to previous page](/iphone_12)
 
-[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is//MJYW3?wid=4500&hei=4500&fmt=png)
+[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MJYW3?wid=4500&hei=4500&fmt=png)
 
-# ![Cantaloupe Case](/everyphone/MJYW3.png)
+<div style="width: 500px"><img src="/everyphone/MJYW3.png" alt="Cantaloupe"></div>
 
 ## Under construction

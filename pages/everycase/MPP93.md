@@ -1,9 +1,9 @@
-# iPhone 14 Plus Leather Case - Midnight
+# iPhone 14 Plus Leather Case with MagSafe - Midnight
 
 [Return to previous page](/iphone_14)
 
-[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is//MPP93?wid=4500&hei=4500&fmt=png)
+[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MPP93?wid=4500&hei=4500&fmt=png)
 
-# ![Midnight Case](/everyphone/MPP93.png)
+<div style="width: 500px"><img src="/everyphone/MPP93.png" alt="Midnight"></div>
 
 ## Under construction

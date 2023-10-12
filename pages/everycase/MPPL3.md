@@ -1,9 +1,9 @@
-# iPhone 14 Pro Leather Case - Orange
+# iPhone 14 Pro Leather Case with MagSafe - Orange
 
 [Return to previous page](/iphone_14)
 
-[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is//MPPL3?wid=4500&hei=4500&fmt=png)
+[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MPPL3?wid=4500&hei=4500&fmt=png)
 
-# ![Orange Case](/everyphone/MPPL3.png)
+<div style="width: 500px"><img src="/everyphone/MPPL3.png" alt="Orange"></div>
 
 ## Under construction

@@ -1,9 +1,9 @@
-# iPhone 14 Plus Leather Case - Forest Green
+# iPhone 14 Plus Leather Case with MagSafe - Forest Green
 
 [Return to previous page](/iphone_14)
 
-[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is//MPPA3?wid=4500&hei=4500&fmt=png)
+[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MPPA3?wid=4500&hei=4500&fmt=png)
 
-# ![Forest Green Case](/everyphone/MPPA3.png)
+<div style="width: 500px"><img src="/everyphone/MPPA3.png" alt="Forest Green"></div>
 
 ## Under construction

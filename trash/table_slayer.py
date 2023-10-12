@@ -25,12 +25,15 @@ def convert_table_to_tabs(table_content, file_name_without_extension):
             # Creating the everycase file for this SKU
             with open(f"pages/everycase/{cell_content[:5]}.md", "w") as sku_file:
                 sku_file_content = (
-                    f"# {header} {headers[0]} - {first_col}\n\n"
+                    f"# {header} {headers[0]} with MagSafe - {first_col}\n\n"
                     f"[Return to previous page](/{file_name_without_extension})\n\n"
-                    f"[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is//{cell_content[:5]}?wid=4500&hei=4500&fmt=png)\n\n"
-                    f"# {image_cell}\n\n"
+                    f"[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/{cell_content[:5]}?wid=4500&hei=4500&fmt=png)\n\n"
+                    f'<div style="width: 500px">'
+                    f'<img src="/everyphone/{cell_content[:5]}.png" alt="{first_col}">'
+                    "</div>\n\n"
                     "## Under construction\n"
                 )
+
                 sku_file.write(sku_file_content)
 
         tabs.append("\n".join(tab))
@@ -105,8 +108,7 @@ def convert_and_save_to_mdx(input_filename, output_filename):
 
 
 # Test
-input_filename = "trash/pages/iphone_15.md"
-output_filename = input_filename.replace(
-    ".md", ".mdx"
-)  # replace .md extension with .mdx
+filename = "iphone_15.md"
+input_filename = os.path.join("trash", "pages", filename)
+output_filename = os.path.join("pages", filename + "x")
 convert_and_save_to_mdx(input_filename, output_filename)

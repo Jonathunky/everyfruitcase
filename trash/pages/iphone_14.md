@@ -4,8 +4,6 @@
 
 ### Late 2022
 
-![Image](/assets/2022-14-silicone.jpg)
-
 | Silicone Case | iPhone 14 | iPhone 14 Plus | iPhone 14 Pro | iPhone 14 Pro Max |
 | ------------- | --------- | -------------- | ------------- | ----------------- |
 | Midnight      | MPRU3ZM/A | MPT33ZM/A      | MPTE3ZM/A     | MPTP3ZM/A         |
@@ -17,8 +15,6 @@
 | Succulent     | MPT13ZM/A | MPTC3ZM/A      | MPTL3ZM/A     | MPTY3ZM/A         |
 | Sunglow       | MPT23ZM/A | MPTD3ZM/A      | MPTM3ZM/A     | MPU03ZM/A         |
 
-![Image](/assets/2022-14-leather.jpg)
-
 | Leather Case | iPhone 14 | iPhone 14 Plus | iPhone 14 Pro | iPhone 14 Pro Max |
 | ------------ | --------- | -------------- | ------------- | ----------------- |
 | Midnight     | MPP43ZM/A | MPP93ZM/A      | MPPG3ZM/A     | MPPM3ZM/A         |
@@ -27,15 +23,11 @@
 | Umber        | MPP73ZM/A | MPPD3ZM/A      | MPPK3ZM/A     | MPPQ3ZM/A         |
 | Orange       | MPP83ZM/A | MPPF3ZM/A      | MPPL3ZM/A     | MPPR3ZM/A         |
 
-![Image](/assets/2022-14-clear.jpg)
-
 |            | iPhone 14 | iPhone 14 Plus | iPhone 14 Pro | iPhone 14 Pro Max |
 | ---------- | --------- | -------------- | ------------- | ----------------- |
 | Clear Case | MPU13ZM/A | MPU43ZM/A      | MPU63ZM/A     | MPU73ZM/A         |
 
 ### Spring 2023
-
-![Image](/assets/2023-14-silicone.jpg)
 
 | Silicone Case | iPhone 14 | iPhone 14 Plus | iPhone 14 Pro | iPhone 14 Pro Max |
 | ------------- | --------- | -------------- | ------------- | ----------------- |

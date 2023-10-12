@@ -1,9 +1,9 @@
-# iPhone 14 Silicone Case - Lilac
+# iPhone 14 Silicone Case with MagSafe - Lilac
 
 [Return to previous page](/iphone_14)
 
-[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is//MPRY3?wid=4500&hei=4500&fmt=png)
+[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MPRY3?wid=4500&hei=4500&fmt=png)
 
-# ![Lilac Case](/everyphone/MPRY3.png)
+<div style="width: 500px"><img src="/everyphone/MPRY3.png" alt="Lilac"></div>
 
 ## Under construction

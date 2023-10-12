@@ -36,8 +36,6 @@ iPhone 15 models features curvier corners than previous models, so cases made fo
 
 #### FineWoven Case
 
-![Image](/assets/2023-15-finewoven.jpg)
-
 | FineWoven Case | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | iPhone 15 Pro Max |
 | -------------- | --------- | -------------- | ------------- | ----------------- |
 | Black          | MT393ZM/A | MT423ZM/A      | MT4H3ZM/A     | MT4V3ZM/A         |
@@ -47,8 +45,6 @@ iPhone 15 models features curvier corners than previous models, so cases made fo
 | Evergreen      | MT3J3ZM/A | MT4F3ZM/A      | MT4U3ZM/A     | MT503ZM/A         |
 
 #### Clear Case
-
-![Image](/assets/2023-15-clear.jpg)
 
 |            | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | iPhone 15 Pro Max |
 | ---------- | --------- | -------------- | ------------- | ----------------- |

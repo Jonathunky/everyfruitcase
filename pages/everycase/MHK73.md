@@ -1,9 +1,9 @@
-# iPhone 12 mini Leather Case - (PRODUCT)RED
+# iPhone 12 mini Leather Case with MagSafe - (PRODUCT)RED
 
 [Return to previous page](/iphone_12)
 
-[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is//MHK73?wid=4500&hei=4500&fmt=png)
+[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MHK73?wid=4500&hei=4500&fmt=png)
 
-# ![(PRODUCT)RED Case](/everyphone/MHK73.png)
+<div style="width: 500px"><img src="/everyphone/MHK73.png" alt="(PRODUCT)RED"></div>
 
 ## Under construction

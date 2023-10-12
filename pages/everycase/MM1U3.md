@@ -1,9 +1,9 @@
-# iPhone 13 mini Silicone Case - Marigold
+# iPhone 13 mini Silicone Case with MagSafe - Marigold
 
 [Return to previous page](/iphone_13)
 
-[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is//MM1U3?wid=4500&hei=4500&fmt=png)
+[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MM1U3?wid=4500&hei=4500&fmt=png)
 
-# ![Marigold Case](/everyphone/MM1U3.png)
+<div style="width: 500px"><img src="/everyphone/MM1U3.png" alt="Marigold"></div>
 
 ## Under construction

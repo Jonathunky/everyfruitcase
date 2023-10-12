@@ -6,8 +6,6 @@
 
 #### Silicone Case
 
-![Image](/assets/2020-12-silicone.jpg)
-
 | Silicone Case | iPhone 12 mini | iPhone 12 & 12 Pro | iPhone 12 Pro Max |
 | ------------- | -------------- | ------------------ | ----------------- |
 | Kumquat       | MHKN3ZM/A      | MHKY3ZM/A          | MHL83ZM/A         |
@@ -21,8 +19,6 @@
 
 #### Leather Case
 
-![Image](/assets/2020-12-leather.jpg)
-
 | Leather Case     | iPhone 12 mini | iPhone 12 & 12 Pro | iPhone 12 Pro Max |
 | ---------------- | -------------- | ------------------ | ----------------- |
 | California Poppy | MHK63ZM/A      | MHKC3ZM/A          | MHKH3ZM/A         |
@@ -33,8 +29,6 @@
 
 #### Leather Sleeve
 
-![Image](/assets/2020-12-leather-sleeve.jpg)
-
 | Leather Sleeve | iPhone 12 mini | iPhone 12 & 12 Pro | iPhone 12 Pro Max |
 | -------------- | -------------- | ------------------ | ----------------- |
 | Pink Citrus    | MHMN3ZM/A      | MHYA3ZM/A          | MHYF3ZM/A         |
@@ -44,16 +38,12 @@
 
 ### Spring 2021
 
-![Image](/assets/2021-12-silicone.jpg)
-
 | Silicone Case | iPhone 12 mini | iPhone 12 & 12 Pro | iPhone 12 Pro Max |
 | ------------- | -------------- | ------------------ | ----------------- |
 | Capri Blue    | MJYU3ZM/A      | MJYY3ZM/A          | MK043ZM/A         |
 | Pistachio     | MJYV3ZM/A      | MK003ZM/A          | MK053ZM/A         |
 | Cantaloupe    | MJYW3ZM/A      | MK023ZM/A          | MK073ZM/A         |
 | Amethyst      | MJYX3ZM/A      | MK033ZM/A          | MK083ZM/A         |
-
-![Image](/assets/2021-12-leather.jpg)
 
 | Leather Case | iPhone 12 mini | iPhone 12 & 12 Pro | iPhone 12 Pro Max |
 | ------------ | -------------- | ------------------ | ----------------- |
@@ -64,8 +54,6 @@
 | Deep Violet    | MK093ZM/A      | MK0A3ZM/A          | MK0D3ZM/A         |
 
 ### Summer 2021
-
-![Image](/assets/2021-12-summer.jpg)
 
 | Silicone Case   | iPhone 12 mini | iPhone 12 & 12 Pro | iPhone 12 Pro Max |
 | --------------- | -------------- | ------------------ | ----------------- |

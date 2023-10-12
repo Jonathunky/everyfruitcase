@@ -1,9 +1,9 @@
-# iPhone 12 & 12 Pro Silicone Case - Deep Navy
+# iPhone 12 & 12 Pro Silicone Case with MagSafe - Deep Navy
 
 [Return to previous page](/iphone_12)
 
-[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is//MHL43?wid=4500&hei=4500&fmt=png)
+[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MHL43?wid=4500&hei=4500&fmt=png)
 
-# ![Deep Navy Case](/everyphone/MHL43.png)
+<div style="width: 500px"><img src="/everyphone/MHL43.png" alt="Deep Navy"></div>
 
 ## Under construction
