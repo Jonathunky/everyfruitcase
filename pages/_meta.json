@@ -64,7 +64,6 @@
   "iphone_7": "iPhone 7, 8, Plus & SE",
   "iphone_6": "iPhone 6, 6s, Plus",
   "iphone_5s": "iPhone 5, 5s, SE",
-  "iphone_5c": "iPhone 5c",
   "sep4": {
     "title": "Pre-Liquid iPad ⤵",
     "type": "separator"
@@ -74,11 +73,12 @@
   "ipad_pro97": "iPad Pro 9.7″",
   "ipad_mini4": "iPad mini 4–5",
   "ipad_air": "iPad Air 1–2 & iPad 5–6",
-  "ipad_mini": "iPad Mini 1–3",
   "sep5": {
     "title": "Ancient History ⤵",
     "type": "separator"
   },
+  "ipad_mini": "iPad Mini 1–3",
+  "iphone_5c": "iPhone 5c",
   "ipad_2": "iPad 2–4",
   "iphone_4": "iPhone 4 Bumpers",
   "ipod_touch": "iPod Touch Loop",
