@@ -1,4 +1,4 @@
-# iPhone 12 Pro Max Silicone Case with MagSafe - Cloud Blue
+# iPhone 12 mini Silicone Case with MagSafe - Cloud Blue
 
 [Return to previous page](/iphone_12)
 

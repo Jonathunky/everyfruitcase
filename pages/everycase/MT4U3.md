@@ -1,4 +1,4 @@
-# iPhone 15 Pro FineWoven Case with MagSafe - Evergreen
+# iPhone 15 FineWoven Case with MagSafe - Evergreen
 
 [Return to previous page](/iphone_15)
 

@@ -1,4 +1,4 @@
-# iPhone 13 Pro Silicone Case with MagSafe - Marigold
+# iPhone 13 Silicone Case with MagSafe - Marigold
 
 [Return to previous page](/iphone_13)
 

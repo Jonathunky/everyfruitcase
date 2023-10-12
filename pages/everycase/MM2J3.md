@@ -1,4 +1,4 @@
-# iPhone 13 Pro Silicone Case with MagSafe - Abyss Blue
+# iPhone 13 Silicone Case with MagSafe - Abyss Blue
 
 [Return to previous page](/iphone_13)
 

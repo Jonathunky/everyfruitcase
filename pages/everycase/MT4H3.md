@@ -1,4 +1,4 @@
-# iPhone 15 Pro FineWoven Case with MagSafe - Black
+# iPhone 15 FineWoven Case with MagSafe - Black
 
 [Return to previous page](/iphone_15)
 

@@ -1,4 +1,4 @@
-# iPhone 13 Pro Max Silicone Case with MagSafe - Nectarine
+# iPhone 13 mini Silicone Case with MagSafe - Nectarine
 
 [Return to previous page](/iphone_13)
 

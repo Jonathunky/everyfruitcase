@@ -1,4 +1,4 @@
-# iPhone 14 Pro Leather Case with MagSafe - Ink
+# iPhone 14 Leather Case with MagSafe - Ink
 
 [Return to previous page](/iphone_14)
 

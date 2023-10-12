@@ -1,4 +1,5 @@
 import os
+import re
 
 
 def convert_table_to_tabs(
@@ -8,8 +9,43 @@ def convert_table_to_tabs(
     headers = [h.strip() for h in lines[0].split("|")[1:-1]]
     rows = [[cell.strip() for cell in row.split("|")[1:-1]] for row in lines[2:]]
 
-    if len(headers) <= 2:
-        return table_content
+    if len(headers) == 2:
+        new_table = []
+        new_table.append(f"| {headers[0]} | {headers[1]} | Image |")
+        new_table.append("| --- | --- | --- |")
+
+        for row in rows:
+            first_col = row[0]
+            cell_content = row[1]
+            new_cell = f"[{cell_content}](/everycase/{cell_content[:5]})"
+            image_cell = f"![{first_col} Case](/everyphone/{cell_content[:5]}.png)"
+            new_table.append(f"| {first_col} | {new_cell} | {image_cell} |")
+
+            if generate_everycase:
+                with open(f"pages/everycase/{cell_content[:5]}.md", "w") as sku_file:
+                    match = re.search(r"iPhone (\d+)", headers[1])
+                    if match:
+                        iphone_number = int(match.group(1))
+                        if iphone_number >= 12:
+                            new_header = f"# {headers[1]} {headers[0]} with MagSafe - {first_col}\n\n"
+                        else:
+                            new_header = (
+                                f"# {headers[1]} {headers[0]} - {first_col}\n\n"
+                            )
+                    else:
+                        new_header = f"# {headers[1]} {headers[0]} - {first_col}\n\n"
+
+                    sku_file_content = (
+                        f"{new_header}"
+                        f"[Return to previous page](/{file_name_without_extension})\n\n"
+                        f"[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/{cell_content[:5]}?wid=4500&hei=4500&fmt=png)\n\n"
+                        f'<div style="width: 500px">'
+                        f'<img src="/everyphone/{cell_content[:5]}.png" alt="{first_col}">'
+                        "</div>\n\n"
+                        "## Under construction\n"
+                    )
+                    sku_file.write(sku_file_content)
+        return "\n".join(new_table)
 
     tabs = []
     for index, header in enumerate(headers[1:], start=1):
@@ -27,8 +63,20 @@ def convert_table_to_tabs(
             # Creating the everycase file for this SKU
             if generate_everycase:
                 with open(f"pages/everycase/{cell_content[:5]}.md", "w") as sku_file:
+                    match = re.search(r"iPhone (\d+)", headers[1])
+                    if match:
+                        iphone_number = int(match.group(1))
+                        if iphone_number >= 12:
+                            new_header = f"# {headers[1]} {headers[0]} with MagSafe - {first_col}\n\n"
+                        else:
+                            new_header = (
+                                f"# {headers[1]} {headers[0]} - {first_col}\n\n"
+                            )
+                    else:
+                        new_header = f"# {headers[1]} {headers[0]} - {first_col}\n\n"
+
                     sku_file_content = (
-                        f"# {header} {headers[0]} with MagSafe - {first_col}\n\n"
+                        f"{new_header}"
                         f"[Return to previous page](/{file_name_without_extension})\n\n"
                         f"[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/{cell_content[:5]}?wid=4500&hei=4500&fmt=png)\n\n"
                         f'<div style="width: 500px">'
@@ -43,9 +91,9 @@ def convert_table_to_tabs(
     previous_headers = ""
     formatted_headers = []
     for header in headers[1:]:
-        if "iPhone" in header and "iPhone" in previous_headers:
+        if "iPhone" in header and "iPhone" in previous_headers and len(headers) > 3:
             formatted_headers.append(header.replace("iPhone ", ""))
-        elif "iPad" in header and "iPad" in previous_headers:
+        elif "iPad" in header and "iPad" in previous_headers and len(headers) > 3:
             formatted_headers.append(header.replace("iPad ", ""))
         else:
             formatted_headers.append(header)

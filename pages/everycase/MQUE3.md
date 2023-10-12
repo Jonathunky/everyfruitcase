@@ -1,4 +1,4 @@
-# iPhone 14 Plus Silicone Case with MagSafe - Sky
+# iPhone 14 Silicone Case with MagSafe - Sky
 
 [Return to previous page](/iphone_14)
 

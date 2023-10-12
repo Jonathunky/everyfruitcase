@@ -1,4 +1,4 @@
-# iPhone 14 Pro Max Silicone Case with MagSafe - Lilac
+# iPhone 14 Silicone Case with MagSafe - Lilac
 
 [Return to previous page](/iphone_14)
 

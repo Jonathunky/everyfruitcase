@@ -1,4 +1,4 @@
-# iPhone 14 Pro Max  with MagSafe - Clear Case
+# iPhone 14  with MagSafe - Clear Case
 
 [Return to previous page](/iphone_14)
 

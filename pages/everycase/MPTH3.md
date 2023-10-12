@@ -1,4 +1,4 @@
-# iPhone 14 Pro Silicone Case with MagSafe - Chalk Pink
+# iPhone 14 Silicone Case with MagSafe - Chalk Pink
 
 [Return to previous page](/iphone_14)
 

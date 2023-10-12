@@ -1,4 +1,4 @@
-# iPhone 14 Plus Leather Case with MagSafe - Umber
+# iPhone 14 Leather Case with MagSafe - Umber
 
 [Return to previous page](/iphone_14)
 

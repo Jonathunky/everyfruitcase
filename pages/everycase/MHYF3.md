@@ -1,4 +1,4 @@
-# iPhone 12 Pro Max Leather Sleeve with MagSafe - Pink Citrus
+# iPhone 12 mini Leather Sleeve with MagSafe - Pink Citrus
 
 [Return to previous page](/iphone_12)
 

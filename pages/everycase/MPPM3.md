@@ -1,4 +1,4 @@
-# iPhone 14 Pro Max Leather Case with MagSafe - Midnight
+# iPhone 14 Leather Case with MagSafe - Midnight
 
 [Return to previous page](/iphone_14)
 

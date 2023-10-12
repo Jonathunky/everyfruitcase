@@ -1,4 +1,4 @@
-# iPhone 13 Pro Max Silicone Case with MagSafe - Eucalyptus
+# iPhone 13 mini Silicone Case with MagSafe - Eucalyptus
 
 [Return to previous page](/iphone_13)
 

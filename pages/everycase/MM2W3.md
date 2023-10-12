@@ -1,4 +1,4 @@
-# iPhone 13 mini  with MagSafe - Clear Case
+# iPhone 13  with MagSafe - Clear Case
 
 [Return to previous page](/iphone_13)
 

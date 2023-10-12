@@ -1,4 +1,4 @@
-# iPhone 12 & 12 Pro Silicone Case with MagSafe - Pink Citrus
+# iPhone 12 mini Silicone Case with MagSafe - Pink Citrus
 
 [Return to previous page](/iphone_12)
 

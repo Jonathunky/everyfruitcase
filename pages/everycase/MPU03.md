@@ -1,4 +1,4 @@
-# iPhone 14 Pro Max Silicone Case with MagSafe - Sunglow
+# iPhone 14 Silicone Case with MagSafe - Sunglow
 
 [Return to previous page](/iphone_14)
 

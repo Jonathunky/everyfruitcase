@@ -1,4 +1,4 @@
-# iPhone 15 Pro Max Silicone Case with MagSafe - Storm Blue
+# iPhone 15 Silicone Case with MagSafe - Storm Blue
 
 [Return to previous page](/iphone_15)
 

@@ -1,4 +1,4 @@
-# iPhone 14 Plus Silicone Case with MagSafe - Storm Blue
+# iPhone 14 Silicone Case with MagSafe - Storm Blue
 
 [Return to previous page](/iphone_14)
 

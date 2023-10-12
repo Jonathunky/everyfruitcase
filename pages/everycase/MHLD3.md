@@ -1,4 +1,4 @@
-# iPhone 12 Pro Max Silicone Case with MagSafe - Deep Navy
+# iPhone 12 mini Silicone Case with MagSafe - Deep Navy
 
 [Return to previous page](/iphone_12)
 

@@ -1,4 +1,4 @@
-# iPhone 13 Pro Max Silicone Case with MagSafe - Midnight
+# iPhone 13 Silicone Case with MagSafe - Midnight
 
 [Return to previous page](/iphone_13)
 

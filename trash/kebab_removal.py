@@ -19,4 +19,4 @@ def batch_resize(directory):
 
 
 if __name__ == "__main__":
-    batch_resize("public/everyphone/")
+    batch_resize("public/temp/")

@@ -1,4 +1,4 @@
-# iPhone 14 Pro Silicone Case with MagSafe - Elderberry
+# iPhone 14 Silicone Case with MagSafe - Elderberry
 
 [Return to previous page](/iphone_14)
 

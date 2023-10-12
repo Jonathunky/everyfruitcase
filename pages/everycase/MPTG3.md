@@ -1,4 +1,4 @@
-# iPhone 14 Pro Silicone Case with MagSafe - (PRODUCT)RED
+# iPhone 14 Silicone Case with MagSafe - (PRODUCT)RED
 
 [Return to previous page](/iphone_14)
 

@@ -1,4 +1,4 @@
-# iPhone 13 mini Leather Case with MagSafe - Sequoia Green
+# iPhone 13 Leather Case with MagSafe - Sequoia Green
 
 [Return to previous page](/iphone_13)
 

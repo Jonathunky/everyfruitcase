@@ -1,4 +1,4 @@
-# iPhone 13 mini Silicone Case with MagSafe - Blue Jay
+# iPhone 13 Silicone Case with MagSafe - Blue Jay
 
 [Return to previous page](/iphone_13)
 

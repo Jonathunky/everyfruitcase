@@ -1,4 +1,4 @@
-# iPhone 14 Pro Max Leather Case with MagSafe - Forest Green
+# iPhone 14 Leather Case with MagSafe - Forest Green
 
 [Return to previous page](/iphone_14)
 

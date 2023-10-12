@@ -1,4 +1,4 @@
-# iPhone 14 Plus Silicone Case with MagSafe - Iris
+# iPhone 14 Silicone Case with MagSafe - Iris
 
 [Return to previous page](/iphone_14)
 

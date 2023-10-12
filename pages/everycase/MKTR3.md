@@ -1,4 +1,4 @@
-# iPhone 12 & 12 Pro Silicone Case with MagSafe - Electric Orange
+# iPhone 12 mini Silicone Case with MagSafe - Electric Orange
 
 [Return to previous page](/iphone_12)
 

@@ -1,4 +1,4 @@
-# iPhone 15 Pro Silicone Case with MagSafe - Black
+# iPhone 15 Silicone Case with MagSafe - Black
 
 [Return to previous page](/iphone_15)
 

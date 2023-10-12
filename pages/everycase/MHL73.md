@@ -1,4 +1,4 @@
-# iPhone 12 & 12 Pro Silicone Case with MagSafe - Black
+# iPhone 12 mini Silicone Case with MagSafe - Black
 
 [Return to previous page](/iphone_12)
 

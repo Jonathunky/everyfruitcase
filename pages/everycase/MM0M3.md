@@ -1,4 +1,4 @@
-# iPhone 13 mini Leather Case with MagSafe - Midnight
+# iPhone 13 Leather Case with MagSafe - Midnight
 
 [Return to previous page](/iphone_13)
 

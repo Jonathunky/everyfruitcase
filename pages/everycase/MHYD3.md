@@ -1,4 +1,4 @@
-# iPhone 12 & 12 Pro Leather Sleeve with MagSafe - Baltic Blue
+# iPhone 12 mini Leather Sleeve with MagSafe - Baltic Blue
 
 [Return to previous page](/iphone_12)
 

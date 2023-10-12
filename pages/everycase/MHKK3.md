@@ -1,4 +1,4 @@
-# iPhone 12 Pro Max Leather Case with MagSafe - Baltic Blue
+# iPhone 12 mini Leather Case with MagSafe - Baltic Blue
 
 [Return to previous page](/iphone_12)
 

@@ -1,4 +1,4 @@
-# iPhone 13 Pro Max Leather Case with MagSafe - Dark Cherry
+# iPhone 13 Leather Case with MagSafe - Dark Cherry
 
 [Return to previous page](/iphone_13)
 

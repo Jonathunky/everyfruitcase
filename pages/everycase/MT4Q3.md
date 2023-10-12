@@ -1,4 +1,4 @@
-# iPhone 15 Pro FineWoven Case with MagSafe - Pacific Blue
+# iPhone 15 FineWoven Case with MagSafe - Pacific Blue
 
 [Return to previous page](/iphone_15)
 

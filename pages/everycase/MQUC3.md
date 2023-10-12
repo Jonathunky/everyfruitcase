@@ -1,4 +1,4 @@
-# iPhone 14 Plus Silicone Case with MagSafe - Canary Yellow
+# iPhone 14 Silicone Case with MagSafe - Canary Yellow
 
 [Return to previous page](/iphone_14)
 

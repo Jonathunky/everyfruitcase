@@ -1,4 +1,4 @@
-# iPhone 12 & 12 Pro Leather Case with MagSafe - Saddle Brown
+# iPhone 12 mini Leather Case with MagSafe - Saddle Brown
 
 [Return to previous page](/iphone_12)
 

@@ -1,4 +1,4 @@
-# iPhone 14 Pro Max Silicone Case with MagSafe - Olive
+# iPhone 14 Silicone Case with MagSafe - Olive
 
 [Return to previous page](/iphone_14)
 

@@ -1,4 +1,4 @@
-# iPhone 14 Plus Silicone Case with MagSafe - Midnight
+# iPhone 14 Silicone Case with MagSafe - Midnight
 
 [Return to previous page](/iphone_14)
 

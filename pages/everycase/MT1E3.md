@@ -1,4 +1,4 @@
-# iPhone 15 Pro Silicone Case with MagSafe - Clay
+# iPhone 15 Silicone Case with MagSafe - Clay
 
 [Return to previous page](/iphone_15)
 

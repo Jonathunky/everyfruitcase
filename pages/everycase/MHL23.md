@@ -1,4 +1,4 @@
-# iPhone 12 & 12 Pro Silicone Case with MagSafe - Plum
+# iPhone 12 mini Silicone Case with MagSafe - Plum
 
 [Return to previous page](/iphone_12)
 

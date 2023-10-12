@@ -1,4 +1,4 @@
-# iPhone 13 mini Silicone Case with MagSafe - Pink Pomelo
+# iPhone 13 Silicone Case with MagSafe - Pink Pomelo
 
 [Return to previous page](/iphone_13)
 
