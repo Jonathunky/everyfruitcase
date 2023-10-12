@@ -84,6 +84,7 @@
   "ipod_touch": "iPod Touch Loop",
   "ipad_1": "Original iPad Case",
   "everycase": {
-    "title": "EveryCase"
+    "title": "EveryCase",
+    "display": "hidden"
   }
 }

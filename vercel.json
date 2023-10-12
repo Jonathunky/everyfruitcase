@@ -27,8 +27,29 @@
         {
           "key": "Referrer-Policy",
           "value": "no-referrer-when-downgrade"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self';"
         }
       ]
     }
-  ]
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "images": {
+    "sizes": [512, 1024, 1536, 2048, 3840],
+    "remotePatterns": [
+      {
+        "protocol": "https",
+        "hostname": "applecase.wiki",
+        "port": "",
+        "pathname": ""
+      }
+    ],
+    "minimumCacheTTL": 60,
+    "formats": ["image/avif", "image/webp"],
+    "contentSecurityPolicy": "script-src 'none'; frame-src 'none'; sandbox;",
+    "contentDispositionType": "inline"
+  }
 }

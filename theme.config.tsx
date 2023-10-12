@@ -68,6 +68,10 @@ const config: DocsThemeConfig = {
   editLink: {
     text: "Propose edits on GitHub →",
   },
+  navigation: {
+    prev: false,
+    next: false
+  },
   head: function Head() {
     const { title } = useConfig();
     const router = useRouter();
@@ -91,6 +95,12 @@ const config: DocsThemeConfig = {
         <meta property="og:image" content="https://applecase.wiki/icons/back.jpg" />
         <meta property="og:url" content={currentURL} />
         <meta property="og:locale" content="en_GB" />
+
+        {/* Twitter Tags */}
+        <meta property="twitter:image" content="https://applecase.wiki/icons/back.jpg" />
+        <meta name="twitter:card" content="summary" />
+        <meta property="twitter:title" content={title ? title : "EveryCase"} />
+        <meta property="twitter:description" content="Library of Apple cases for iPhone, iPad, and Mac." />
 
         {/* Apple Specific Tags */}
         <meta name="apple-mobile-web-app-title" content="EveryCase" />

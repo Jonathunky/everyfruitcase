@@ -28,7 +28,7 @@ const baseConfig = {
     unoptimized: false,
     quality: 99,
     formats: ["image/avif", "image/webp"],
-    imageSizes: [512, 1024, 1536, 2048],
+    imageSizes: [512, 1024, 1536, 2048, 3840],
   },
   swcMinify: true,
   reactStrictMode: true,
