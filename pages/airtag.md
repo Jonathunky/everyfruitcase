@@ -33,3 +33,11 @@ Very quickly, both Silicone and Leather Loop were discontinued, and only the Lea
 | Wisteria     | MMFC3ZM/A        |
 
 ### Late 2023
+
+| AirTag       | FineWoven Key Ring |
+| ------------ | ------------------ |
+| Black        | MT2H3ZM/A          |
+| Mulberry     | MT2J3ZM/A          |
+| Pacific Blue | MT2K3ZM/A          |
+| Taupe        | MT2L3ZM/A          |
+| Coral        | MT2M3ZM/A          |
