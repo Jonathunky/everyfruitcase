@@ -7,7 +7,7 @@ export default function Nextra({ Component, pageProps }) {
     <>
       <Analytics />
       <Component {...pageProps} />
-      <script
+      <script //Cloudflare Web Analytics snippet
         defer
         src='https://static.cloudflareinsights.com/beacon.min.js'
         data-cf-beacon='{"token": "755b62bedd4b45898e824b980a5cad7b"}'

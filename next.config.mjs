@@ -53,6 +53,20 @@ const baseConfig = {
   webpack(config) {
     return config;
   },
+  async headers() {
+    // to enable HSTS
+    return [
+      {
+        source: "/(.*)",
+        headers: [
+          {
+            key: "Strict-Transport-Security",
+            value: "max-age=63072000; includeSubDomains; preload",
+          },
+        ],
+      },
+    ];
+  },
 };
 
 const pwaConfig = {
