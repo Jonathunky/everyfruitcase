@@ -43,8 +43,8 @@
       {
         "protocol": "https",
         "hostname": "applecase.wiki",
-        "port": "",
-        "pathname": ""
+        "port": "443",
+        "pathname": "/"
       }
     ],
     "minimumCacheTTL": 60,

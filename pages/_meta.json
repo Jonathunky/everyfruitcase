@@ -13,7 +13,7 @@
       "footer": false,
       "sidebar": true,
       "toc": false,
-      "pagination": true,
+      "pagination": false,
       "layout": "full"
     },
     "display": "hidden"

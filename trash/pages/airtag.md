@@ -8,6 +8,8 @@ Very quickly, both Silicone and Leather Loop were discontinued, and only the Lea
 
 ### Spring 2021
 
+#### Silicone Loop
+
 | AirTag          | Silicone Loop |
 | --------------- | ------------- |
 | Deep Navy       | MHJ03ZM/A     |
@@ -15,6 +17,8 @@ Very quickly, both Silicone and Leather Loop were discontinued, and only the Lea
 | Sunflower       | MK0W3ZM/A     |
 | White           | MX4F2ZM/A     |
 | Pink Citrus     | MLYY3ZM/A     |
+
+#### Leather Accessories
 
 | AirTag           | Leather Key Ring | Leather Loop |
 | ---------------- | ---------------- | ------------ |
