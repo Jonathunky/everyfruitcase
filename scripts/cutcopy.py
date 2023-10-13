@@ -46,5 +46,5 @@ if __name__ == "__main__":
 
     # Example: Crop 200 pixels from the top and 100 pixels from the bottom
     multi_process_crop_images(
-        source_folder, destination_folder, top=250, bottom=250, left=250, right=250
+        source_folder, destination_folder, top=0, bottom=2000, left=1000, right=1000
     )

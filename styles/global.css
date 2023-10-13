@@ -9,8 +9,9 @@ table img {
     max-width: 200px;
     width: 100%;
     height: auto;
-    margin: 0;
     padding: 0;
+    display: inline-block;
+    margin: auto;
 }
 
 table {
@@ -29,6 +30,7 @@ th {
     padding: 0;
     white-space: pre-wrap;
     word-break: keep-all;
+    box-sizing: border-box;
 }
 
 td:nth-child(3) {
