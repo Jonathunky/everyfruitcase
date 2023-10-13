@@ -13,6 +13,8 @@
 
 ### Late 2013
 
+SPLIT_TABLE_1 = "Smart Cover"
+
 | iPad mini | Smart Cover |
 | --------- | ----------- |
 | Black     | MF059LL/A   |
@@ -22,6 +24,8 @@
 | Yellow    | MF063LL/A   |
 | Red       | MF394LL/A   |
 
+SPLIT_TABLE_2 = "Smart Case"
+
 | iPad mini | Smart Case |
 | --------- | ---------- |
 | Brown     | ME706LL/A  |
@@ -30,6 +34,8 @@
 | Blue      | ME709LL/A  |
 | Black     | ME710LL/A  |
 | Red       | ME711LL/A  |
+
+SPLIT_TABLE_END
 
 ### Late 2014
 

@@ -1,6 +1,7 @@
 import os
 import re
 import json
+import concurrent.futures
 
 
 def generate_sku_file_content(
@@ -89,25 +90,26 @@ def generate_tab_or_table(
             if not os.path.exists(directory):
                 os.makedirs(directory, exist_ok=True)
 
-            with open(f"{directory}/{cell_content[:5]}.md", "w") as sku_file:
-                if any(keyword in headers[0].strip() for keyword in KEYWORDS):
-                    sku_file_content = generate_sku_file_content(
-                        headers[0],
-                        headers[1],
-                        first_col,
-                        cell_content,
-                        file_name_without_extension,
-                    )
-                else:
-                    sku_file_content = generate_sku_file_content(
-                        headers[1],
-                        headers[0],
-                        first_col,
-                        cell_content,
-                        file_name_without_extension,
-                    )
+            if cell_content[:5].strip(): # suspicious check
+                with open(f"{directory}/{cell_content[:5]}.md", "w") as sku_file:
+                    if any(keyword in headers[0].strip() for keyword in KEYWORDS):
+                        sku_file_content = generate_sku_file_content(
+                            headers[0],
+                            headers[1],
+                            first_col,
+                            cell_content,
+                            file_name_without_extension,
+                        )
+                    else:
+                        sku_file_content = generate_sku_file_content(
+                            headers[1],
+                            headers[0],
+                            first_col,
+                            cell_content,
+                            file_name_without_extension,
+                        )
 
-                sku_file.write(sku_file_content)
+                    sku_file.write(sku_file_content)
 
     return table
 
@@ -192,15 +194,71 @@ def extract_tables_from_file(filename):
     return tables
 
 
+def process_single_file(file_info):
+    root, file, generate_mdx, generate_everycase = file_info
+    if file.endswith(".md"):
+        input_filename = os.path.join(root, file)
+        output_filename = os.path.join("pages", file + "x")
+        convert_and_save_to_mdx(
+            input_filename, output_filename, generate_mdx, generate_everycase
+        )
+
+
+def replace_mdx_content(filename):
+    with open(filename, "r") as file:
+        content = file.read()
+
+        # Check if the patterns are present
+        if (
+            "SPLIT_TABLE_1" in content
+            and "SPLIT_TABLE_2" in content
+            and "SPLIT_TABLE_END" in content
+        ):
+            # Extract the blocks of content
+            split_table_1_content = re.search(
+                'SPLIT_TABLE_1 = "(.*?)"\n\n(.*?)\n\nSPLIT_TABLE_2', content, re.DOTALL
+            ).group(2)
+            split_table_2_content = re.search(
+                'SPLIT_TABLE_2 = "(.*?)"\n\n(.*?)\n\nSPLIT_TABLE_END',
+                content,
+                re.DOTALL,
+            ).group(2)
+            table_1_title = re.search('SPLIT_TABLE_1 = "(.*?)"', content).group(1)
+            table_2_title = re.search('SPLIT_TABLE_2 = "(.*?)"', content).group(1)
+
+            new_content = f"""<Tabs items={{['{table_1_title}', '{table_2_title}']}}>
+              <Tabs.Tab>
+            {split_table_1_content}
+            </Tabs.Tab>
+              <Tabs.Tab>
+            {split_table_2_content}
+            </Tabs.Tab>
+            </Tabs>"""
+
+            # Replace the old block with the new Tabs syntax
+            content = re.sub(
+                "SPLIT_TABLE_1.*?SPLIT_TABLE_END", new_content, content, flags=re.DOTALL
+            )
+
+            # Save the changes
+            with open(filename, "w") as file:
+                file.write(content)
+
+
 def process_directory(directory_path, generate_mdx=True, generate_everycase=True):
+    file_infos = []
     for root, dirs, files in os.walk(directory_path):
         for file in files:
-            if file.endswith(".md"):
-                input_filename = os.path.join(root, file)
-                output_filename = os.path.join("pages", file + "x")
-                convert_and_save_to_mdx(
-                    input_filename, output_filename, generate_mdx, generate_everycase
-                )
+            file_infos.append((root, file, generate_mdx, generate_everycase))
+
+    # Process files in parallel
+    with concurrent.futures.ProcessPoolExecutor() as executor:
+        executor.map(process_single_file, file_infos)
+
+    for root, dirs, files in os.walk("pages"):
+        for file in files:
+            if file.endswith(".mdx"):
+                replace_mdx_content(os.path.join(root, file))
 
 
 def convert_and_save_to_mdx(
@@ -232,6 +290,6 @@ def convert_and_save_to_mdx(
             f.write(content)
 
 
-# Test
-directory_path = "trash/layout"
-process_directory(directory_path, generate_mdx=True, generate_everycase=True)
+if __name__ == "__main__":
+    directory_path = "trash/layout"
+    process_directory(directory_path, generate_mdx=True, generate_everycase=True)

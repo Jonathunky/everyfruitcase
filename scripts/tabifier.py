@@ -58,9 +58,6 @@ def extract_target_tables_from_file(filename):
     return upper_table, lower_table, pre_merge_content, post_merge_content
 
 
-# ... rest of the script remains the same ...
-
-
 def tabify_markdown_file(input_file, output_file):
     (
         upper_table,

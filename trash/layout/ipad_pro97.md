@@ -1,6 +1,6 @@
 ## Collections
 
-### Smart Keybioard
+### Smart Keyboard
 
 | iPad Pro 9.7″ | Smart Keyboard |
 | ------------- | -------------- |

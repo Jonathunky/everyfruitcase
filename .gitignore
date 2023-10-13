@@ -1,27 +1,20 @@
 .DS_Store
+
+# Editors
+.idea/
+.vscode/
+.obsidian/
+
+# Build & Deploy
 .next/
+.eslintcache
+.env
+.vercel
+
+# Package management
 node_modules/
 yarn-error.log
 .pnpm-debug.log
-.vscode/
-dist/
-*/**/.turbo
-# Theme styles
-packages/nextra-theme-*/style.css
-
-# Stork related
-*/**/public/*.st
-*/**/public/*.toml
-
-.vercel
-.idea/
-.eslintcache
-.env
-
-/pages/.obsidian/
-/pages/.idea/
-/pages/__pycache__/
-
 yarn.lock
 pnpm-lock.yaml
 package-lock.json
