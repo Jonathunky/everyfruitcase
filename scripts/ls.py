@@ -2,11 +2,16 @@ import os
 
 
 def list_markdown_files(directory, output_file="models.txt"):
-    # List all files in the directory
-    all_files = os.listdir(directory)
+    md_files = []
 
-    # Filter out the markdown files and remove the extension
-    md_files = [os.path.splitext(file)[0] for file in all_files if file.endswith(".md")]
+    # Walk through directory including its subdirectories
+    for dirpath, dirnames, filenames in os.walk(directory):
+        # Check if "ipad" is in the directory path
+        if "ipad" in dirpath.lower():
+            for filename in filenames:
+                if filename.endswith(".md"):
+                    # Append only the file name without extension
+                    md_files.append(os.path.splitext(filename)[0])
 
     with open(output_file, "w") as f:
         f.write("everyphone:\n")
@@ -18,5 +23,5 @@ def list_markdown_files(directory, output_file="models.txt"):
 
 
 # Example usage:
-directory_path = "./pages/everycase"  # Replace with your folder path
+directory_path = "./pages"  # Replace with your folder path
 list_markdown_files(directory_path)
