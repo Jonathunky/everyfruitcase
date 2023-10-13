@@ -1,13 +1,17 @@
 ## Collections
 
+### Smart Keyboard
+
+| Smart Keyboard | iPad Pro 12.9″ |
+| -------------- | -------------- |
+| Black          | MJYR2LL/A      |
+
 ### Late 2015
 
 | iPad Pro 12.9″ | Smart Cover | Silicone Case |
 | -------------- | ----------- | ------------- |
 | Charcoal Gray  | MK0L2ZM/A   | MK0D2ZM/A     |
 | White          | MLJK2ZM/A   | MK0E2ZM/A     |
-
-Keyboard MJYR2LL (US)
 
 ### WWDC 2017
 

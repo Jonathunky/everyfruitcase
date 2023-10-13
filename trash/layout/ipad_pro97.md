@@ -1,5 +1,11 @@
 ## Collections
 
+### Smart Keybioard
+
+| iPad Pro 9.7″ | Smart Keyboard |
+| ------------- | -------------- |
+| Black         | MM2L2AM/A      |
+
 ### Spring 2016
 
 | iPad Pro 9.7″ | Smart Cover | Silicone Case |
@@ -16,10 +22,6 @@
 | Yellow        | MM2K2AM/A   | MM282AM/A     |
 | Mint          | MMG62AM/A   | MMG42AM/A     |
 | Lilac         | MMG72AM/A   | MMG52AM/A     |
-
-| iPad Pro 9.7″ | Smart Keyboard |
-| ------------- | -------------- |
-| Black         | MM2L2AM/A      |
 
 ## Late 2016
 

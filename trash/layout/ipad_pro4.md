@@ -1,5 +1,20 @@
 ## Collections
 
+### Smart Keyboard Folio
+
+| Smart Keyboard Folio | iPad 10.9″ / 11″ | iPad Pro 12.9″ |
+| -------------------- | ---------------- | -------------- |
+| Black                | MXNK2LL/A        | MXNL2LL/A      |
+
+### Magic Keyboard
+
+| Magic Keyboard            | iPad 10.9″ / 11″ | iPad Pro 12.9″ |
+| ------------------------- | ---------------- | -------------- |
+| Black - initial model     | MXQT2LL/A        | MXQU2LL/A      |
+| White                     | MJQJ3LL/A        | MJQL3LL/A      |
+| Black - for thicker 12.9″ |                  | MJQK3LL/A      |
+
+
 ### Spring 2020
 
 | Smart Folio | iPad Pro 11″ | iPad Pro 12.9″ |

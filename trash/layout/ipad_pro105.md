@@ -1,5 +1,16 @@
 ## Collections
 
+### Smart Keyboard
+
+| Smart Keyboard    | iPad 10.2″ / 10.5″ |
+| ----------------- | ------------------ |
+| Summer 2017 model | MPTL2LL/A          |
+| March 2020 model  | MX3L2LL/A          |
+
+These should be identical, but Apple introduced new SKU for some reason; it does not coincide with release of any iPads.
+
+I will investigate if anything else has changed between these keyboards.
+
 ### WWDC 2017
 
 | iPad Pro 10.5″ | Smart Cover |
