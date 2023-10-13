@@ -27,7 +27,7 @@ const logo = (
 
 const config: DocsThemeConfig = {
   project: {
-    // github link; will spawn it in the title bar
+    // GitHub link; will spawn it in the title bar
     // link: 'https://github.com/JonathanX64/everyfruitcase',
   },
   chat: {
@@ -49,13 +49,21 @@ const config: DocsThemeConfig = {
     defaultMenuCollapseLevel: 1,
     toggleButton: true,
   },
-  gitTimestamp: () => <></>,
+  //gitTimestamp: () => <></>,
+  darkMode: true,
+  nextThemes: {
+    defaultTheme: 'system'
+  },
   primaryHue: 320,
   useNextSeoProps() {
     const { asPath } = useRouter();
     const titleTemplate = asPath !== "/" ? "%s – EveryCase" : "EveryCase";
     return {
       titleTemplate,
+      noindex: true,
+      nofollow: true,
+      dangerouslySetAllPagesToNoFollow: true,
+      dangerouslySetAllPagesToNoIndex: true
     };
   },
   toc: {
@@ -90,7 +98,8 @@ const config: DocsThemeConfig = {
 
         {/* OpenGraph Tags */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content={title ? title : "EveryCase"} />
+        {/* <meta property="og:title" content={title ? title : "EveryCase"} /> — managed by NextSeo plugin*/}
+
         <meta property="og:description" content="Library of Apple cases for iPhone, iPad, and Mac." />
         <meta property="og:image" content="https://applecase.wiki/icons/back.jpg" />
         <meta property="og:url" content={currentURL} />
@@ -106,7 +115,7 @@ const config: DocsThemeConfig = {
         <meta name="apple-mobile-web-app-title" content="EveryCase" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
         <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#bf4f95" />
 
         {/* Microsoft Specific Tags */}
@@ -115,7 +124,7 @@ const config: DocsThemeConfig = {
         <meta name="msapplication-tap-highlight" content="no" />
 
         {/* Miscellaneous */}
-        <meta name="robots" content="noindex" /> {/* until it's ready */}
+        {/* <meta name="robots" content="noindex" /> also managed by plugin */}
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
       </>
