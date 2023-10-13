@@ -1,14 +1,14 @@
 export const config = {
-    runtime: "edge",
+  runtime: "edge",
 }
 
-export default function (req, res) {
-    const report = req.body
-
-    // You can log, store, or process the CSP report as needed.
-    // For this example, we'll just log it.
+export default async function handler(request) {
+  try {
+    const report = await request.json()
     console.log("CSP Report:", report)
-
-    // Respond with a 204 No Content status.
-    res.status(204).send("")
+    return new Response(null, { status: 204 })
+  } catch (error) {
+    console.error("Error processing CSP report:", error)
+    return new Response("Error processing report", { status: 500 })
+  }
 }

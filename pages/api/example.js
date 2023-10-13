@@ -1,9 +1,9 @@
 export const config = {
   runtime: "edge",
-};
+}
 
 export default function handler(request) {
-  const { searchParams } = new URL(request.url);
+  const { searchParams } = new URL(request.url)
 
   return new Response(
     JSON.stringify({
@@ -16,6 +16,6 @@ export default function handler(request) {
       headers: {
         "content-type": "application/json",
       },
-    }
-  );
+    },
+  )
 }
