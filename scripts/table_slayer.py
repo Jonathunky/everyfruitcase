@@ -3,6 +3,23 @@ import re
 import json
 import concurrent.futures
 
+# Read the SKUs from the file and store them in a set
+with open("trash/skus.txt", "r") as file:
+    extended_skus = set(file.read().splitlines())
+
+
+def get_extended_sku(original_sku):
+    """Searches for the extended SKU in the cache and returns it.
+    If not found, returns the original SKU."""
+
+    # Search for a SKU that starts with the original SKU
+    for sku in extended_skus:
+        if sku.startswith(original_sku):
+            return sku
+
+    # If no extended SKU is found in the cache, return the original SKU
+    return original_sku
+
 
 def generate_sku_file_content(
     header, head, first_col, cell_content, file_name_without_extension
@@ -76,10 +93,8 @@ def generate_tab_or_table(
     for row in rows:
         first_col = row[0]
         cell_content = row[1]
-        new_cell = (
-            f"[{cell_content}](/{file_name_without_extension}/{cell_content[:5]})"
-        )
-        image_cell = f"![{first_col} {heading}](/everyphone/{cell_content[:5]}.png)"
+        new_cell = f"[{cell_content[:5]}<wbr/>{cell_content[5:]}](/{file_name_without_extension}/{cell_content[:5]})"
+        image_cell = f"![{first_col} {heading}](/everyphone/{get_extended_sku(cell_content[:5])}.png)"
         table.append(f"| {first_col} | {new_cell} | {image_cell} |")
 
         if generate_everycase:
@@ -90,7 +105,7 @@ def generate_tab_or_table(
             if not os.path.exists(directory):
                 os.makedirs(directory, exist_ok=True)
 
-            if cell_content[:5].strip(): # suspicious check
+            if cell_content[:5].strip():  # suspicious check
                 with open(f"{directory}/{cell_content[:5]}.md", "w") as sku_file:
                     if any(keyword in headers[0].strip() for keyword in KEYWORDS):
                         sku_file_content = generate_sku_file_content(
