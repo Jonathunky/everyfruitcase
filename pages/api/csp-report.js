@@ -10,5 +10,5 @@ export default function (req, res) {
     console.log("CSP Report:", report)
 
     // Respond with a 204 No Content status.
-    res.status(204).end()
+    res.status(204).send("")
 }
