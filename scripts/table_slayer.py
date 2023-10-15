@@ -33,11 +33,11 @@ def generate_jsx(filenames):
     )
 
     jsx = (
-        "<div style={{ width: '100%', maxWidth: '768px' }}>\n"
-        + "<GalleryComponent\n    images={[\n      "
+        # "<div style={{ width: '100%', maxWidth: '768px' }}>\n"
+        "<GalleryComponent\n    images={[\n      "
         + image_entries
         + "\n    ]}\n  />\n"
-        + "</div>"
+        # + "</div>"
     )
 
     return jsx
@@ -69,9 +69,11 @@ def generate_sku_file_content(
         new_header = f"# {header} {head} - {first_col}\n\n"
 
     return (
-        f"import GalleryComponent from '/components/GalleryComponent'\n\n"
+        f"import GalleryComponent from '/components/GalleryComponent'\n"
+        f"import {{ Callout }} from 'nextra/components'\n\n"
         f"{new_header}"
-        f"Part number, for search engines, auction websites and such: {cell_content}\n\n"
+        f"<Callout type='info' emoji='👉🏻'>**{cell_content}** is an order number of this case, used for search engines, auction websites and such."
+        f"</Callout>\n\n"
         f"## Image gallery\n\n"
         f"{generate_jsx(grep_sku_from_file(cell_content[:5], 'trash/ls.txt'))}"
     )

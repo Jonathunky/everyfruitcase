@@ -11,6 +11,8 @@ export default function GalleryComponent({ images }) {
             infinite={false}
             thumbnailHeight={256}
             thumbnailWidth={256}
+            thumbnailPosition={"bottom"}
+            stopPropagation={true}
         />
     );
 }
