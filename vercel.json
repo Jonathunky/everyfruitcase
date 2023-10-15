@@ -36,21 +36,5 @@
     }
   ],
   "cleanUrls": true,
-  "trailingSlash": false,
-  "images": {
-    "sizes": [512, 1024, 1536, 2048, 3840],
-    "remotePatterns": [
-      {
-        "protocol": "https",
-        "hostname": "applecase.wiki",
-        "port": "443",
-        "pathname": "/"
-      }
-    ],
-    "minimumCacheTTL": 60,
-    "formats": ["image/avif", "image/webp"],
-    "contentSecurityPolicy": "script-src 'none'; frame-src 'none'; sandbox;",
-    "contentDispositionType": "inline",
-    "unoptimized": "true"
-  }
+  "trailingSlash": false
 }
