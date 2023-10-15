@@ -50,6 +50,7 @@
     "minimumCacheTTL": 60,
     "formats": ["image/avif", "image/webp"],
     "contentSecurityPolicy": "script-src 'none'; frame-src 'none'; sandbox;",
-    "contentDispositionType": "inline"
+    "contentDispositionType": "inline",
+    "unoptimized": "true"
   }
 }

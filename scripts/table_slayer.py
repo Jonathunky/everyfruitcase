@@ -25,8 +25,8 @@ def generate_jsx(filenames):
     image_entries = ",\n      ".join(
         [  # replace with webp later!
             f"""{{
-        original: "/everysource/{filename}.png",
-        thumbnail: "/everypreview/{filename}.png",
+        original: "/everysource/{filename}.webp",
+        thumbnail: "/everypreview/{filename}.webp",
       }}"""
             for filename in filenames
         ]
@@ -128,7 +128,7 @@ def generate_tab_or_table(
         first_col = row[0]
         cell_content = row[1]
         new_cell = f"{cell_content[:5]}<wbr/>{cell_content[5:]}"
-        image_cell = f'<a href="/{file_name_without_extension}/{cell_content[:5]}" target="_blank">![{first_col} {heading}](/everypreview/{get_extended_sku(cell_content[:5])}.png)</a>'
+        image_cell = f'<a href="/{file_name_without_extension}/{cell_content[:5]}" target="_blank">![{first_col} {heading}](/everypreview/{get_extended_sku(cell_content[:5])}.webp)</a>'
         table.append(f"| {first_col} | {new_cell} | {image_cell} |")
 
         if generate_everycase:
