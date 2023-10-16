@@ -32,6 +32,7 @@ const config: DocsThemeConfig = {
   },
   chat: {
     //link: 'https://discord.com',
+    //supports icons
   },
   logo,
   docsRepositoryBase: "https://github.com/Jonathunky/everyfruitcase/tree/main/",
@@ -41,8 +42,17 @@ const config: DocsThemeConfig = {
   },
   sidebar: {
     titleComponent({ title, type }) {
-      if (type === "separator") {
-        return <span className="cursor-default">{title}</span>;
+      const boldTitles = [
+        "Latest iPhone",
+        "Latest iPad",
+        "Other stuff",
+        "Pre-MagSafe iPhone",
+        "Pre-notch iPhone",
+        "Pre-Liquid iPad",
+        "Ancient History"
+      ];
+      if (boldTitles.includes(title)) {
+        return <span className="folder-name">{title}</span>;
       }
       return <>{title}</>;
     },

@@ -114,7 +114,7 @@ def write_meta_to_file(folder_path):
                 "breadcrumb": True,
                 "typesetting": "article",
                 "footer": False,
-                "sidebar": True,
+                "sidebar": False,
                 "layout": "full",
             },
             "display": "hidden",

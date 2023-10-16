@@ -7,7 +7,7 @@ export default function GalleryComponent({ images }) {
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth > 1024) {
-                setThumbnailPosition("right");
+                setThumbnailPosition("left");
             } else {
                 setThumbnailPosition("top");
             }

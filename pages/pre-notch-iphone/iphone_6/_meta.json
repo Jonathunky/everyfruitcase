@@ -6,7 +6,7 @@
       "breadcrumb": true,
       "typesetting": "article",
       "footer": false,
-      "sidebar": true,
+      "sidebar": false,
       "layout": "full"
     },
     "display": "hidden"

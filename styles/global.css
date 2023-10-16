@@ -13,6 +13,10 @@ table img {
     margin: auto;
 }
 
+.folder-name {
+    font-weight: 500;
+}
+
 .image-gallery-thumbnails .image-gallery-thumbnail {
     width: 100px;
     height: 100px;

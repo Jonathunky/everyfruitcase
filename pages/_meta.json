@@ -26,25 +26,50 @@
     "title": "♥ Leave your mark",
     "type": "page"
   },
+  "sep1": {
+    "title": "Sorted by device:",
+    "type": "separator"
+  },
   "latest-iphone": {
-    "title": "By device: Latest iPhone ⤵"
+    "title": "Latest iPhone",
+    "theme": {
+      "collapsed": false
+    }
   },
   "latest-ipad": {
-    "title": "Latest iPad ⤵"
+    "title": "Latest iPad",
+    "theme": {
+      "collapsed": false
+    }
   },
   "others": {
-    "title": "Other stuff ⤵"
+    "title": "Other stuff",
+    "theme": {
+      "collapsed": true
+    }
   },
   "pre-magsafe-iphone": {
-    "title": "Pre-MagSafe iPhone ⤵"
+    "title": "Pre-MagSafe iPhone",
+    "theme": {
+      "collapsed": true
+    }
   },
   "pre-notch-iphone": {
-    "title": "Pre-notch iPhone ⤵"
+    "title": "Pre-notch iPhone",
+    "theme": {
+      "collapsed": true
+    }
   },
   "pre-liquid-ipad": {
-    "title": "Pre-Liquid iPad ⤵"
+    "title": "Pre-Liquid iPad",
+    "theme": {
+      "collapsed": true
+    }
   },
   "ancient": {
-    "title": "Ancient History ⤵"
+    "title": "Ancient History",
+    "theme": {
+      "collapsed": true
+    }
   }
 }
