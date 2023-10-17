@@ -5,7 +5,7 @@ import concurrent.futures
 from functools import lru_cache
 
 
-@lru_cache(maxsize=None)
+# @lru_cache(maxsize=None)
 def list_directory_contents(file_path):
     """grep of images folder"""
     return os.listdir(file_path)
@@ -82,7 +82,9 @@ def generate_sku_file_content(
     else:
         new_header = f"# {header} {head} - {first_col}\n\n"
 
-    matches = grep_sku_from_folder(cell_content[:5], "public/everypreview")
+    matches = grep_sku_from_folder(
+        cell_content[:5], os.path.expanduser("~/Downloads/Images/nobg-512-webp-99/")
+    )
 
     if len(matches) > 1:
         return (
@@ -418,4 +420,5 @@ def convert_and_save_to_mdx(
 
 if __name__ == "__main__":
     directory_path = "trash/layout"
+
     process_directory(directory_path, generate_mdx=True, generate_everycase=True)
