@@ -95,7 +95,7 @@ const config: DocsThemeConfig = {
     const { title } = useConfig();
     const router = useRouter();
 
-    const baseURL = "https://applecase.wiki";
+    const baseURL = "https://everycase.org";
     const currentURL = `${baseURL}${router.asPath}`;
 
     return (
@@ -112,12 +112,12 @@ const config: DocsThemeConfig = {
         {/* <meta property="og:title" content={title ? title : "EveryCase"} /> — managed by NextSeo plugin*/}
 
         <meta property="og:description" content="Library of Apple cases for iPhone, iPad, and Mac." />
-        <meta property="og:image" content="https://applecase.wiki/icons/back.jpg" />
+        <meta property="og:image" content="https://everycase.org/icons/back.jpg" />
         <meta property="og:url" content={currentURL} />
         <meta property="og:locale" content="en_GB" />
 
         {/* Twitter Tags */}
-        <meta property="twitter:image" content="https://applecase.wiki/icons/back.jpg" />
+        <meta property="twitter:image" content="https://everycase.org/icons/back.jpg" />
         <meta name="twitter:card" content="summary" />
         <meta property="twitter:title" content={title ? title : "EveryCase"} />
         <meta property="twitter:description" content="Library of Apple cases for iPhone, iPad, and Mac." />

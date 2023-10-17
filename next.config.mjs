@@ -24,7 +24,7 @@ const baseConfig = {
   output: "export",
   distDir: "dist",
   images: {
-    domains: ["applecase.wiki"],
+    domains: ["everycase.org", "applecase.wiki"],
     unoptimized: true,
     quality: 100,
     formats: ["image/avif", "image/webp"],

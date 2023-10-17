@@ -1,6 +1,6 @@
 # EveryCase Website
 
-This is a working repo for the [EveryCase](https://applecase.wiki/).
+This is a working repo for the [EveryCase](https://everycase.org/).
 
 ## License
 

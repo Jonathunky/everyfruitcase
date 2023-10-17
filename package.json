@@ -13,12 +13,12 @@
     "type": "git",
     "url": "git+https://github.com/Jonathunky/everyfruitcase"
   },
-  "author": "Jonathunky <jonathan@applecase.wiki>",
+  "author": "Jonathunky <jonathan@everycase.org>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Jonathunky/everyfruitcase/issues"
   },
-  "homepage": "https://applecase.wiki",
+  "homepage": "https://everycase.org",
   "dependencies": {
     "@vercel/analytics": "^1.1.1",
     "next": "~13.5.4",
