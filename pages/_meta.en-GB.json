@@ -18,6 +18,10 @@
     },
     "display": "hidden"
   },
+  "roadmap": {
+    "title": "❄︎ Roadmap",
+    "type": "page"
+  },
   "about": {
     "title": "★ Credits",
     "type": "page"
@@ -71,5 +75,10 @@
     "theme": {
       "collapsed": true
     }
+  },
+  "vercel": {
+    "title": "For Vercel",
+    "type": "page",
+    "display": "hidden"
   }
 }

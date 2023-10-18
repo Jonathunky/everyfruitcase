@@ -4,7 +4,7 @@
 
 | iPad Pro 9.7″ | Smart Keyboard |
 | ------------- | -------------- |
-| Black         | MM2L2AM/A      |
+| Black         | MM2L2LL/A      |
 
 ### Spring 2016
 

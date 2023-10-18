@@ -70,9 +70,7 @@ It is unknown if anything has changed between these two keyboards.
 | Electric Blue  | MRFJ2ZM/A           | MRFL2ZM/A      |
 | Soft Pink      | MRFK2ZM/A           | MRFM2ZM/A      |
 
-### Smart Cover
-
-#### Late 2018
+### Late 2018
 
 | Smart Cover   | iPad Pro 10.5″ |
 | ------------- | -------------- |
@@ -80,7 +78,7 @@ It is unknown if anything has changed between these two keyboards.
 | Pink Sand     | MU7R2ZM/A      |
 | White         | MU7Q2ZM/A      |
 
-#### Spring 2019
+### Spring 2019
 
 | Smart Cover   | iPad Air 3 |
 | ------------- | ---------- |
@@ -89,26 +87,26 @@ It is unknown if anything has changed between these two keyboards.
 | Pink Sand     | MVQ42ZM/A  |
 | White         | MVQ32ZM/A  |
 
-#### Summer 2019
+### Summer 2019
 
 | Smart Cover | iPad Air 3 |
 | ----------- | ---------- |
 | Cornflower  | MWUY2ZM/A  |
 
-#### Late 2019
+### Late 2019
 
 | Smart Cover  | iPad 10.5″ |
 | ------------ | ---------- |
 | Alaskan Blue | MX4V2ZM/A  |
 
-#### Spring 2020
+### Spring 2020
 
 | Smart Cover | iPad 10.5″ |
 | ----------- | ---------- |
 | Black       | MX4U2ZM/A  |
 | Cactus      | MY1U2ZM/A  |
 
-#### Late 2020
+### Late 2020
 
 | Smart Cover  | iPad 10.5″ |
 | ------------ | ---------- |
@@ -116,14 +114,14 @@ It is unknown if anything has changed between these two keyboards.
 | Pink Citrus  | MGYT3ZM/A  |
 | Cyprus Green | MGYR3ZM/A  |
 
-#### Spring 2021
+### Spring 2021
 
 | Smart Cover     | iPad 10.5″ |
 | --------------- | ---------- |
 | Electric Orange | MJM83ZM/A  |
 | Mallard Green   | MJM73ZM/A  |
 
-#### Late 2021
+### Late 2021
 
 | Smart Cover      | iPad 10.5″ |
 | ---------------- | ---------- |

@@ -94,12 +94,20 @@ def generate_sku_file_content(
         cell_content[:5], os.path.expanduser("~/Downloads/Images/nobg-512-webp-99/")
     )
 
+    with open("trash/keyboards.txt", "r") as file:
+        keyboards_list = [line.strip() for line in file.readlines()]
+
+    if cell_content[:5] in keyboards_list:
+        callout = "is an order number for US ANSI version. The last two letters will be different for different locales; like SM for Swiss, UA for Ukrainian, etc."
+    else:
+        callout = "is an order number for this product, used for search engines, auction websites and such."
+
     if len(matches) > 1:
         return (
             f"import GalleryComponent from '/components/GalleryComponent'\n"
             f"import {{ Callout }} from 'nextra/components'\n\n"
             f"{new_header}"
-            f"<Callout type='info' emoji='👉🏻'>**{cell_content[:7]}** is an order number for this product, used for search engines, auction websites and such."
+            f"<Callout type='info' emoji='👉🏻'>**{cell_content[:7]}** {callout}"
             f"</Callout>\n\n"
             f"## Image gallery\n\n"
             f"{generate_jsx(matches)}"

@@ -2,7 +2,7 @@
 
 | Keyboard Folio | iPad Pro 11″ 1st gen | iPad Pro 12.9″ 3rd gen |
 | -------------- | -------------------- | ---------------------- |
-| Black          | MU8G2ZM/A            | MU8H2ZM/A              |
+| Black          | MU8G2LL/A            | MU8H2LL/A              |
 
 ## Smart Folio
 
