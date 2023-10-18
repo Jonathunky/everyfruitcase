@@ -1,8 +1,8 @@
-# Accessories for iPhone 5, 5s and SE (1st generation / 2016)
+# Leather Case for iPhone 5, 5s and SE (2016)
 
 The year 2013 not only marked the release of iOS 7, the first-ever version that was designed with taste, but also saw the introduction of two new iPhones, and the first attempt by Apple to create official cases (not bumpers!) for the iPhone.
 
-The flagship model, iPhone 5s, featured an incredible and earth-shattering Apple A7 chip, along with Touch ID, a seamless and secure way to unlock the device, and a lineup of six cases made from natural aniline-dyed leather.
+The flagship model, iPhone 5s, featured an incredible and earth-shattering Apple A7 chip, along with Touch ID, a seamless and secure way to unlock the device, and a line-up of six cases made from natural aniline-dyed leather.
 
 These leather cases were designed to fit snugly on the devices while maintaining a relatively slim profile. They featured precise cutouts for buttons and ports, as well as a soft microfiber lining for added protection. Apple's leather cases are designed to age beautifully, as the material develops a unique patina over time; this natural process enhances the appearance of the leather, giving it a rich and distinctive character that reflects its use and personal history.
 
@@ -26,6 +26,6 @@ Video unboxing of 2016's Black case: https://youtu.be/1-GN9VtL8eY
 
 ## Pricing & Compatibility
 
-Leather cases were originally retailed for $39, while 5s Dock cost $29. Nowadays, these are not the easiest to find, but auction websites seem to usually have a couple of listings available.
+Leather cases were originally retailed for \$39, while 5s Dock cost \$29. Nowadays, these are not the easiest to find, but auction websites seem to usually have a couple of listings available.
 
 These accessories are only compatible with iPhone 5, 5s, and iPhone SE (1st generation / 2016 model).

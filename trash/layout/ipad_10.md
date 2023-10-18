@@ -1,6 +1,6 @@
 ## Magic Keyboard Folio
 
-Unlike the standard Magic Keyboard, this one features a detachable keyboard section and includes an F-row. Sadly, this keyboard solution is exclusive for iPad (10th gen)
+Unlike the standard Magic Keyboard, this one features a detachable keyboard section and includes an F-row. This keyboard solution is exclusive for iPad (10th gen).
 
 | Magic Keyboard Folio | iPad 10th gen |
 | -------------------- | ------------- |

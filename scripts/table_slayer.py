@@ -84,11 +84,11 @@ def generate_sku_file_content(
                 new_header = f"# {header} Clear Case\n\n"
         else:
             if iphone_number >= 12:
-                new_header = f"# {header} {head} with MagSafe - {first_col}\n\n"
+                new_header = f"# {header} {head} with MagSafe — {first_col}\n\n"
             else:
-                new_header = f"# {header} {head} - {first_col}\n\n"
+                new_header = f"# {header} {head} — {first_col}\n\n"
     else:
-        new_header = f"# {header} {head} - {first_col}\n\n"
+        new_header = f"# {header} {head} — {first_col}\n\n"
 
     matches = grep_sku_from_folder(
         cell_content[:5], os.path.expanduser("~/Downloads/Images/nobg-512-webp-99/")
@@ -120,7 +120,7 @@ def generate_sku_file_content(
             f"<Callout type='info' emoji='👉🏻'>**{cell_content[:7]}** is an order number for this product, used for search engines, auction websites and such."
             f"</Callout>\n\n"
             f"## Image\n\n"
-            f"![Image](/everysource/{cell_content[:5]}.webp)"
+            f"![Image](https://everycase.imgix.net/everysource/{cell_content[:5]}.webp)"
         )
 
 

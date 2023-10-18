@@ -40,11 +40,15 @@ Red released a bit later, on [November 30th, 2016](https://www.apple.com/newsroo
 
 ### Spring 2017
 
+#### Silicone Case
+
 | Silicone Case | iPhone 7  | iPhone 7 Plus |
 | ------------- | --------- | ------------- |
 | Azure         | MQ0J2ZM/A | MQ0M2ZM/A     |
 | Camellia      | MQ0K2ZM/A | MQ0N2ZM/A     |
 | Pebble        | MQ0L2ZM/A | MQ0P2ZM/A     |
+
+#### Leather Case
 
 | Leather Case | iPhone 7  | iPhone 7 Plus |
 | ------------ | --------- | ------------- |
@@ -54,11 +58,15 @@ Red released a bit later, on [November 30th, 2016](https://www.apple.com/newsroo
 
 ### WWDC 2017
 
+#### Silicone Case
+
 | Silicone Case | iPhone 7  | iPhone 7 Plus |
 | ------------- | --------- | ------------- |
 | Mist Blue     | MQ582ZM/A | MQ5C2ZM/A     |
 | Flamingo      | MQ592ZM/A | MQ5D2ZM/A     |
 | Pollen        | MQ5A2ZM/A | MQ5E2ZM/A     |
+
+#### Leather Case
 
 | Leather Case | iPhone 7  | iPhone 7 Plus |
 | ------------ | --------- | ------------- |
@@ -97,11 +105,15 @@ Red released a bit later, on [November 30th, 2016](https://www.apple.com/newsroo
 
 ### Spring 2018
 
+#### Silicone Case
+
 | Silicone Case | iPhone 8  | iPhone 8 Plus |
 | ------------- | --------- | ------------- |
 | Red Raspberry | MRFQ2ZM/A | MRFW2ZM/A     |
 | Denim Blue    | MRFR2ZM/A | MRFX2ZM/A     |
 | Lemonade      | MRFU2ZM/A | MRFY2ZM/A     |
+
+#### Leather Case
 
 | Leather Case  | iPhone 8  | iPhone 8 Plus |
 | ------------- | --------- | ------------- |
@@ -112,6 +124,8 @@ Red released a bit later, on [November 30th, 2016](https://www.apple.com/newsroo
 
 ### WWDC 2018
 
+#### Silicone Case
+
 | Silicone Case | iPhone 8  | iPhone 8 Plus |
 | ------------- | --------- | ------------- |
 | Peach         | MRR52ZM/A | MRR82ZM/A     |
@@ -120,11 +134,15 @@ Red released a bit later, on [November 30th, 2016](https://www.apple.com/newsroo
 
 ### Spring 2020
 
+#### Silicone Case
+
 | Silicone Case | iPhone SE |
 | ------------- | --------- |
 | Black         | MXYH2ZM/A |
 | Pink Sand     | MXYK2ZM/A |
 | White         | MXYJ2ZM/A |
+
+#### Leather Case
 
 | Leather Case  | iPhone SE |
 | ------------- | --------- |
@@ -133,6 +151,8 @@ Red released a bit later, on [November 30th, 2016](https://www.apple.com/newsroo
 | Midnight Blue | MXYN2ZM/A |
 
 ### Spring 2022
+
+#### Silicone Case
 
 | Silicone Case | iPhone SE |
 | ------------- | --------- |

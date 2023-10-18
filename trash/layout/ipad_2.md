@@ -12,7 +12,7 @@ Apple offered two types of Smart Covers: Polyurethane covers for \$39.00, and fo
 
 Apple came up with these incredibly cool posters to promote this accessory: https://www.oneclub.org/awards/theoneshow/-award/18010/ipad-smart-cover-launch-posters
 
-## Original Lineup
+## Original Line-up
 
 ### iPad Smart Cover
 
