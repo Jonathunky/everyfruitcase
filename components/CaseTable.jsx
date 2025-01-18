@@ -1,17 +1,18 @@
+"use client";
+
 import { useState, useEffect } from "react";
-import { Table, Td, Th, Tr } from "nextra/components";
+import { Table } from "nextra/components";
 import { supabase } from "./supabaseClient";
 import Link from "next/link";
 import Image from "next/image";
 
-
 /**
  * DEPRECATED, TO BE REMOVED
  * CaseTable Component
- * 
+ *
  * Displays a table of phone cases based on filters like model, material, and season.
  * Fetches data from a Supabase database and displays it in a sortable table.
- * 
+ *
  * @param {string} model - The model of the phone to filter cases.
  * @param {string} material - The material of the case to filter cases.
  * @param {string} season - The season to filter cases.
@@ -26,7 +27,9 @@ const CaseTable = ({ model, material, season }) => {
     const fetchCases = async () => {
       setLoading(true);
 
-      let query = supabase.from("phone").select("SKU, material, colour, model, season");
+      let query = supabase
+        .from("phone")
+        .select("SKU, material, colour, model, season");
 
       if (model) query = query.eq("model", model);
       if (material) query = query.eq("material", material);
@@ -58,34 +61,46 @@ const CaseTable = ({ model, material, season }) => {
     <>
       <Table>
         <thead>
-          <Tr>
-            <Th>Colour</Th>
-            <Th>SKU</Th>
-            <Th>Tap for more:</Th>
-          </Tr>
+          <Table.Tr>
+            <Table.Th>Colour</Table.Th>
+            <Table.Th>SKU</Table.Th>
+            <Table.Th>Tap for more:</Table.Th>
+          </Table.Tr>
         </thead>
         <tbody>
           {sortedCases.map((item) => (
-            <Tr key={item.SKU}>
-              <Td>{item.colour}</Td>
-              <Td>{item.SKU + "ZM/A"}</Td>
-              <Td>
+            <Table.Tr key={item.SKU}>
+              <Table.Td>{item.colour}</Table.Td>
+              <Table.Td>{item.SKU + "ZM/A"}</Table.Td>
+              <Table.Td>
                 <Link href={"/case/" + item.SKU}>
-                  <div style={{
-                    width: "200px", height: "200px", overflow: "hidden", display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center"
-                  }}>
+                  <div
+                    style={{
+                      width: "200px",
+                      height: "200px",
+                      overflow: "hidden",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
                     <Image
-                      src={"https://cloudfront.everycase.org/everypreview/" + item.SKU + ".webp"}
-                      width={200} height={200}
-                      alt={item.model + " " + item.material + " — " + item.colour}
+                      src={
+                        "https://cloudfront.everycase.org/everypreview/" +
+                        item.SKU +
+                        ".webp"
+                      }
+                      width={200}
+                      height={200}
+                      alt={
+                        item.model + " " + item.material + " — " + item.colour
+                      }
                       style={{ objectFit: "contain" }}
                     />
                   </div>
                 </Link>
-              </Td>
-            </Tr>
+              </Table.Td>
+            </Table.Tr>
           ))}
         </tbody>
       </Table>

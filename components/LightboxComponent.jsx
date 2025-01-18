@@ -1,7 +1,8 @@
+"use client";
+
 import React from "react";
 import { SlideshowLightbox } from "lightbox.js-react";
 import Image from "next/image";
-
 
 const LightboxComponent = ({ images }) => {
   return (
