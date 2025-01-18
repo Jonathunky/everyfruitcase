@@ -33,8 +33,8 @@ const VerticalCarousel = ({ model, material, season }) => {
         }}
       >
         <Table>
+          {/* Dummy Image and Color Name to avoid layout shifts */}
           <thead>
-            {/* Row 1: Dummy Image and Color Name */}
             <Table.Tr>
               <Table.Td
                 style={{
@@ -52,9 +52,7 @@ const VerticalCarousel = ({ model, material, season }) => {
                     alignItems: "center",
                     justifyContent: "center",
                   }}
-                >
-                  {/* Dummy image placeholder */}
-                </div>
+                ></div>
                 <strong
                   style={{
                     textAlign: "center",
@@ -68,7 +66,6 @@ const VerticalCarousel = ({ model, material, season }) => {
               </Table.Td>
             </Table.Tr>
 
-            {/* Row 2: Dummy SKU */}
             <Table.Tr>
               <Table.Td style={{ textAlign: "center", padding: "0" }}>
                 <span style={{ color: "#ccc" }}>SKU</span>
@@ -119,7 +116,7 @@ const VerticalCarousel = ({ model, material, season }) => {
                           (item.alt_thumbnail || item.SKU).trim() +
                           ".webp"
                         }
-                        width={512} //does not affect anything anyway
+                        width={512} //does not affect anything anyway??
                         height={512}
                         alt={`${item.model} ${item.kind} — ${item.colour}`}
                         style={{ objectFit: "contain" }}
